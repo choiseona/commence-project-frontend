@@ -82,6 +82,18 @@
     url("./assets/fonts/AppleSDGothicNeoUL.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: Pretendard;
+  src:
+    url("./assets/fonts/subset-Pretendard-Regular.woff2") format("woff2"),
+    url("./assets/fonts/subset-Pretendard-Regular.woff") format("woff"),
+    url("./assets/fonts/subset-Pretendard-Regular.ttf") format("truetype");
+}
+
 .test {
   font-family: AppleSDGothicNeoB00;
+}
+
+.test2 {
+  font-family: Pretendard;
 }
