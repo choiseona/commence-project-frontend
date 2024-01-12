@@ -1,4 +1,4 @@
-import ThisYear from "./ThisYear";
+import ThisYear from "@/componenet/PhotoGallery/ThisYear";
 
 function PhotoGallery() {
   return <ThisYear />;
