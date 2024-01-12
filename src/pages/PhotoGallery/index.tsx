@@ -1,5 +1,7 @@
+import ThisYear from "./ThisYear";
+
 function PhotoGallery() {
-  return <div>gg</div>;
+  return <ThisYear />;
 }
 
 export default PhotoGallery;
