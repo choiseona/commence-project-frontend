@@ -1,7 +1,13 @@
+import PhotoLine from "@/componenet/PhotoGallery/PhotoLine";
 import ThisYear from "@/componenet/PhotoGallery/ThisYear";
 
 function PhotoGallery() {
-  return <ThisYear />;
+  return (
+    <>
+      <ThisYear />
+      <PhotoLine />
+    </>
+  );
 }
 
 export default PhotoGallery;
