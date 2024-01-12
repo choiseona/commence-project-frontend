@@ -1,18 +1,17 @@
-import { PhotoItem } from "@/componenet/PhotoGallery/PhotoItem";
 import PhotoLine from "@/componenet/PhotoGallery/PhotoLine";
 import ThisYear from "@/componenet/PhotoGallery/ThisYear";
-import testImage from "@/assets/images/photo-gallery-test1.jpg";
+import PhotoItems from "@/componenet/PhotoGallery/PhotoItems";
 
 function PhotoGallery() {
   return (
-    <>
+    <div className="pt-[43px]">
       <ThisYear />
-      <PhotoLine />
-      <PhotoItem>
-        <PhotoItem.Image rotate="-5.737deg" src={testImage} alt="gg" />
-        <PhotoItem.Comment bottom="-30px" right="-18px" content="겨울MT" />
-      </PhotoItem>
-    </>
+      <div className="mt-[166px]">
+        <PhotoLine>
+          <PhotoItems />
+        </PhotoLine>
+      </div>
+    </div>
   );
 }
 
