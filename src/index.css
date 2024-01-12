@@ -90,10 +90,38 @@
     url("./assets/fonts/subset-Pretendard-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: tvNEnjoystoriesB;
+  src:
+    url("./assets/fonts/tvNEnjoystoriesB.woff2") format("woff2"),
+    url("./assets/fonts/tvNEnjoystoriesB.woff") format("woff"),
+    url("./assets/fonts/tvNEnjoystoriesB.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: tvNEnjoystoriesL;
+  src:
+    url("./assets/fonts/tvNEnjoystoriesL.woff2") format("woff2"),
+    url("./assets/fonts/tvNEnjoystoriesL.woff") format("woff"),
+    url("./assets/fonts/tvNEnjoystoriesL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: tvNEnjoystoriesM;
+  src:
+    url("./assets/fonts/tvNEnjoystoriesM.woff2") format("woff2"),
+    url("./assets/fonts/tvNEnjoystoriesM.woff") format("woff"),
+    url("./assets/fonts/tvNEnjoystoriesM.ttf") format("truetype");
+}
+
 .test {
   font-family: AppleSDGothicNeoB00;
 }
 
 .test2 {
   font-family: Pretendard;
+}
+
+.test3 {
+  font-family: tvNEnjoystoriesB;
 }
