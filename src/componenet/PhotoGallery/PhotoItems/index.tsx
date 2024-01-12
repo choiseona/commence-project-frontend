@@ -59,7 +59,11 @@ function PhotoItems() {
     <div className="absolute top-[-87px] left-[-74px]">
       {Object.entries(datas).map(([month, { items }]) => (
         <Fragment key={month}>
-          <p className={`${marginBottomVariants[month]}`}>{month}</p>
+          <p
+            className={`${marginBottomVariants[month]} font-tvNEnjoystoriesM text-[30px] leading-[100%] tracking-[-0.3px]`}
+          >
+            {month}
+          </p>
           {items.map(({ src, alt, content }, index) => (
             <PhotoItem key={index} imageKey={`${month}_${index + 1}`}>
               <PhotoItem.Image

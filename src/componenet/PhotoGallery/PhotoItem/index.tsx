@@ -34,7 +34,9 @@ function ContentComment({ imageKey, content }: ContentCommentProps) {
   ));
 
   return (
-    <p className={`${positionVariants[imageKey]} text-center absolute`}>
+    <p
+      className={`${positionVariants[imageKey]} font-tvNEnjoystoriesL text-[25px] leading-[100%] tracking-[-0.25px] text-center absolute`}
+    >
       {formattedContent}
     </p>
   );

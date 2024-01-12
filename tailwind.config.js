@@ -2,7 +2,13 @@
 export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'tvNEnjoystoriesB': ['tvNEnjoystoriesB'],
+        'tvNEnjoystoriesM': ['tvNEnjoystoriesM'],
+        'tvNEnjoystoriesL': ['tvNEnjoystoriesL']
+      }
+    },
   },
   plugins: [],
 }
