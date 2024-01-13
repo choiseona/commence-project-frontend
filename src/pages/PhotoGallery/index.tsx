@@ -6,10 +6,13 @@ function PhotoGallery() {
   return (
     <div className="pt-[43px]">
       <ThisYear />
-      <div className="mt-[166px]">
-        <PhotoLine>
-          <PhotoItems />
-        </PhotoLine>
+      <div className="mt-[166px] flex justify-center">
+        <div className="relative">
+          <PhotoLine />
+          <div className="absolute top-[-84.5px] left-[-74px]">
+            <PhotoItems />
+          </div>
+        </div>
       </div>
     </div>
   );
