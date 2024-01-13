@@ -131,7 +131,7 @@ function PhotoItems() {
     February: "top-[-37px] left-[-8px]",
     March: "top-[-37.39px] left-[-87.13px]",
     April: "top-[-56.47px] left-[-8px]",
-    May: "top-[-60.64px] left-[-80px]",
+    May: "top-[-60.64px] left-[-91px]",
     July: "top-[-32px] left-[-8px]",
     August: "top-[-49.64px] left-[-91px]",
     September: "top-[-49px] left-[-8px]",
