@@ -2,12 +2,14 @@ import youtubeSmallMarkPNG from "@/assets/images/youtue-smallmarkPNG.png";
 import instagramSmallMarkPNG from "@/assets/images/instagram-smallmarkPNG.png";
 
 function FooterLinks() {
+  const youtubeURL = "https://www.youtube.com/@commence-sw6xo"
+  const instaURL = "https://www.instagram.com/commence_official/"
   return (
     <div className="flex flex-col space-y-[2px] pl-[37px] mt-[20px]">
       <span className="font-AppleSDGothicNeoL00 text-[0.72em] text-[#6E6E6E]">
         COMMENCE SNS
       </span>
-      <div className="flex items-center">
+      <div className="flex items-center cursor-pointer" onClick={()=>{window.open(youtubeURL)}}>
         <img
           src={youtubeSmallMarkPNG}
           alt="youtube-smallmark"
@@ -18,7 +20,7 @@ function FooterLinks() {
           YOUTUBE
         </span>
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center cursor-pointer" onClick={()=>{window.open(instaURL)}}>
         <img
           src={instagramSmallMarkPNG}
           alt="instagram-smallmark"
