@@ -4,21 +4,26 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { onMenu } from "../onMenu";
 
-
 function Menu() {
   const [onAboutus, setAboutus] = useState(false);
   const navigate = useNavigate();
   const onClick = () => {
     setAboutus((prev) => !prev);
-    document.getElementById('about_us-container')?.classList.toggle('hidden');
-    document.getElementById('about_us-container')?.classList.toggle('opacity-0');
-    document.getElementById('about_us-container')?.classList.toggle('opacity-100');
-    document.getElementById('about_us-container')?.classList.toggle('translate-y-full');
+    document.getElementById("about_us-container")?.classList.toggle("hidden");
+    document
+      .getElementById("about_us-container")
+      ?.classList.toggle("opacity-0");
+    document
+      .getElementById("about_us-container")
+      ?.classList.toggle("opacity-100");
+    document
+      .getElementById("about_us-container")
+      ?.classList.toggle("translate-y-full");
   };
-  const onNavigate = (url:string) => {
+  const onNavigate = (url: string) => {
     navigate(url);
     onMenu();
-  }
+  };
   return (
     <div
       id="menu-container"
@@ -57,8 +62,14 @@ function Menu() {
                 />
               </div>
 
-              <ul id="about_us-container" className="mt-[15px] hidden opacity-0 duration-500 ease-out transition-all translate-y-full">
-                <li className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer">
+              <ul
+                id="about_us-container"
+                className="mt-[15px] hidden opacity-0 duration-500 ease-out transition-all translate-y-full"
+              >
+                <li
+                  className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
+                  onClick={() => onNavigate("/about-us")}
+                >
                   -꼬망스의 40년
                 </li>
                 <li
@@ -69,13 +80,16 @@ function Menu() {
                 </li>
               </ul>
             </li>
-            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer">
+            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+            onClick={() => onNavigate("/performance-video")}>
               Performance
             </li>
-            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer">
+            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+            onClick={() => onNavigate("/how-to-join")}>
               How to join
             </li>
-            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer">
+            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+            onClick={() => onNavigate("/faq")}>
               FAQ
             </li>
           </ul>
