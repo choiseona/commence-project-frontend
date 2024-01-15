@@ -6,7 +6,11 @@ export default {
       fontFamily: {
         'tvNEnjoystoriesB': ['tvNEnjoystoriesB'],
         'tvNEnjoystoriesM': ['tvNEnjoystoriesM'],
-        'tvNEnjoystoriesL': ['tvNEnjoystoriesL']
+        'tvNEnjoystoriesL': ['tvNEnjoystoriesL'],
+        'AppleSDGothicNeoH00': ['AppleSDGothicNeoH00'],
+        'AppleSDGothicNeoL00': ['AppleSDGothicNeoL00'],
+        'AppleSDGothicNeoT00': ['AppleSDGothicNeoT00'],
+        'AppleSDGothicNeoM00': ['AppleSDGothicNeoM00']
       }
     },
   },
