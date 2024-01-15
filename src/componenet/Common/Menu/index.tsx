@@ -7,22 +7,13 @@ import { onMenu } from "../onMenu";
 function Menu() {
   const [onAboutus, setAboutus] = useState(false);
   const navigate = useNavigate();
-  const onClick = () => {
+  const onClickAboutus = () => {
     setAboutus((prev) => !prev);
-    document.getElementById("about_us-container")?.classList.toggle("hidden");
-    document
-      .getElementById("about_us-container")
-      ?.classList.toggle("opacity-0");
-    document
-      .getElementById("about_us-container")
-      ?.classList.toggle("opacity-100");
-    document
-      .getElementById("about_us-container")
-      ?.classList.toggle("translate-y-full");
   };
   const onNavigate = (url: string) => {
     navigate(url);
     onMenu();
+    onClickAboutus();
   };
   return (
     <div
@@ -50,7 +41,7 @@ function Menu() {
           <ul className="space-y-[30px]">
             <li>
               <div
-                onClick={onClick}
+                onClick={onClickAboutus}
                 className="flex justify-between cursor-pointer"
               >
                 <span className="font-AppleSDGothicNeoL00 text-[23px] ">
@@ -61,35 +52,39 @@ function Menu() {
                   className="mr-[5%]"
                 />
               </div>
-
-              <ul
-                id="about_us-container"
-                className="mt-[15px] hidden opacity-0 duration-500 ease-out transition-all translate-y-full"
-              >
-                <li
-                  className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
-                  onClick={() => onNavigate("/about-us")}
-                >
-                  -꼬망스의 40년
-                </li>
-                <li
-                  className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
-                  onClick={() => onNavigate("/photo")}
-                >
-                  -꼬망스의 1년
-                </li>
-              </ul>
+              {onAboutus && (
+                <ul id="about_us-container" className="mt-[15px]">
+                  <li
+                    className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
+                    onClick={() => onNavigate("/about-us")}
+                  >
+                    -꼬망스의 40년
+                  </li>
+                  <li
+                    className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
+                    onClick={() => onNavigate("/photo")}
+                  >
+                    -꼬망스의 1년
+                  </li>
+                </ul>
+              )}
             </li>
-            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
-            onClick={() => onNavigate("/performance-video")}>
+            <li
+              className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+              onClick={() => onNavigate("/performance-video")}
+            >
               Performance
             </li>
-            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
-            onClick={() => onNavigate("/how-to-join")}>
+            <li
+              className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+              onClick={() => onNavigate("/how-to-join")}
+            >
               How to join
             </li>
-            <li className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
-            onClick={() => onNavigate("/faq")}>
+            <li
+              className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+              onClick={() => onNavigate("/faq")}
+            >
               FAQ
             </li>
           </ul>
