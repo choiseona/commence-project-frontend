@@ -10,7 +10,8 @@ export default {
         'AppleSDGothicNeoH00': ['AppleSDGothicNeoH00'],
         'AppleSDGothicNeoL00': ['AppleSDGothicNeoL00'],
         'AppleSDGothicNeoT00': ['AppleSDGothicNeoT00'],
-        'AppleSDGothicNeoM00': ['AppleSDGothicNeoM00']
+        'AppleSDGothicNeoM00': ['AppleSDGothicNeoM00'],
+        'Pretendard':['Pretendard']
       }
     },
   },
