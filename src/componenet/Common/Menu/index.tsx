@@ -2,7 +2,15 @@ import DownArrow from "@/assets/icons/category-DownArrow.svg";
 import UpArrow from "@/assets/icons/category-UpArrow.svg";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { onMenu } from "../onMenu";
+
+export const onMenu = () => {
+  document.getElementById('menu-container')?.classList.toggle('invisible');
+  document.getElementById('overlay')?.classList.toggle('opacity-0');
+  document.getElementById('overlay')?.classList.toggle('opacity-100');
+  document.getElementById('menu')?.classList.toggle('opacity-0');
+  document.getElementById('menu')?.classList.toggle('opacity-100');
+  document.getElementById('menu')?.classList.toggle('translate-x-full');
+};
 
 function Menu() {
   const [onAboutus, setAboutus] = useState(false);

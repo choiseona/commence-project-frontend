@@ -1,6 +1,5 @@
 import menuIcon from "@/assets/icons/menu-icon.svg";
-import { onMenu } from "../onMenu";
-import Menu from "../Menu";
+import Menu, { onMenu } from "../Menu";
 
 
 function Header() {
