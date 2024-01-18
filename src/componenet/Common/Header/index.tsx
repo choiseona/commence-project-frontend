@@ -10,10 +10,10 @@ function Header() {
   }
   return (
     <>
-      <nav className="fixed top-0 max-w-lg w-full bg-white h-[60px] z-10">
+      <nav className="fixed top-0 max-w-[51.2rem] w-full bg-white h-[6rem] z-10">
         <div className="h-full w-full flex justify-center items-center relative">
-          <span className="text-[1.94em] font-Pretendard">COMMENCE</span>
-          <span className="absolute right-[30px]">
+          <span className="text-[3.1em] font-Pretendard">COMMENCE</span>
+          <span className="absolute right-[3rem]">
             <img src={menuIcon} alt="menu-icon" onClick={onClick}  />
           </span>
         </div>
