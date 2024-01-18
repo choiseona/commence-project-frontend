@@ -1,40 +1,42 @@
 import DownArrow from "@/assets/icons/category-DownArrow.svg";
 import UpArrow from "@/assets/icons/category-UpArrow.svg";
+import { cls } from "@/libs/util";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-export const onMenu = () => {
-  document.getElementById('menu-container')?.classList.toggle('invisible');
-  document.getElementById('overlay')?.classList.toggle('opacity-0');
-  document.getElementById('overlay')?.classList.toggle('opacity-100');
-  document.getElementById('menu')?.classList.toggle('opacity-0');
-  document.getElementById('menu')?.classList.toggle('opacity-100');
-  document.getElementById('menu')?.classList.toggle('translate-x-full');
-};
 
-function Menu() {
+interface IParam {
+  onMenuToggle: boolean;
+  setOnMenuToggle: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
   const [onAboutus, setAboutus] = useState(false);
   const navigate = useNavigate();
+
   const onClickAboutus = () => {
     setAboutus((prev) => !prev);
   };
   const onNavigate = (url: string) => {
     navigate(url);
-    onMenu();
+    setOnMenuToggle((prev) => !prev);
     onClickAboutus();
   };
   return (
     <div
-      id="menu-container"
-      className="fixed top-2 max-w-lg w-full h-full invisible z-[5]"
+      className={cls(
+        "fixed top-2 max-w-lg w-full h-full z-[5]",
+        onMenuToggle ? "" : "invisible"
+      )}
     >
       <div
-        id="overlay"
-        className="w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black/25 opacity-0"
+        className={cls("w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black/25",
+        onMenuToggle ? "opacity-100" : "opacity-0")}
       ></div>
       <div
-        id="menu"
-        className="absolute top-[48px] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] opacity-0 duration-300 ease-out transition-all translate-x-full"
+        className={cls("absolute top-[48px] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
+        onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
+        )}
       >
         <div className="flex justify-center align-middle py-[45px]">
           <span className="font-AppleSDGothicNeoL00 text-[1.225em]">
