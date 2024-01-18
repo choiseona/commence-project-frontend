@@ -24,19 +24,16 @@ function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
   };
   return (
     <div
-      id="menu-container"
       className={cls(
         "fixed top-2 max-w-lg w-full h-full z-[5]",
         onMenuToggle ? "" : "invisible"
       )}
     >
       <div
-        id="overlay"
         className={cls("w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black/25",
         onMenuToggle ? "opacity-100" : "opacity-0")}
       ></div>
       <div
-        id="menu"
         className={cls("absolute top-[48px] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
         onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
         )}
