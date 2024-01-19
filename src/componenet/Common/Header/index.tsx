@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 function Header() {
   const [onMenuToggle, setOnMenuToggle] = useState(false);
+  const [onAboutus, setOnAboutus] = useState(false);
   const navigate = useNavigate();
 
   const onClickMenu = () => {
@@ -14,6 +15,7 @@ function Header() {
   const onClickHeader = () => {
     navigate("/");
     setOnMenuToggle(false);
+    setOnAboutus(false);
   }
   return (
     <>
@@ -25,7 +27,7 @@ function Header() {
           </span>
         </div>
       </nav>
-      <Menu onMenuToggle={onMenuToggle} setOnMenuToggle={setOnMenuToggle}/>
+      <Menu onMenuToggle={onMenuToggle} setOnMenuToggle={setOnMenuToggle} onAboutus={onAboutus} setOnAboutus={setOnAboutus}/>
     </>
   );
 };

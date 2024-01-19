@@ -1,26 +1,26 @@
 import DownArrow from "@/assets/icons/category-DownArrow.svg";
 import UpArrow from "@/assets/icons/category-UpArrow.svg";
 import { cls } from "@/libs/util";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
 interface IParam {
   onMenuToggle: boolean;
   setOnMenuToggle: React.Dispatch<React.SetStateAction<boolean>>;
+  onAboutus:boolean;
+  setOnAboutus:React.Dispatch<React.SetStateAction<boolean>>
 }
 
-function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
-  const [onAboutus, setAboutus] = useState(false);
+function Menu({ onMenuToggle, setOnMenuToggle,onAboutus, setOnAboutus }: IParam) {
   const navigate = useNavigate();
 
   const onClickAboutus = () => {
-    setAboutus((prev) => !prev);
+    setOnAboutus((prev) => !prev);
   };
   const onNavigate = (url: string) => {
     navigate(url);
     setOnMenuToggle(false);
-    setAboutus(false);
+    setOnAboutus(false);
   };
   return (
     <div
