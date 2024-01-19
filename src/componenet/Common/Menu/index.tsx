@@ -39,7 +39,7 @@ function Menu({ onMenuToggle, setOnMenuToggle,onAboutus, setOnAboutus }: IParam)
         )}
       >
         <div className="flex justify-center align-middle py-[45px]">
-          <span className="font-AppleSDGothicNeoL00 text-[2.475em]">
+          <span className="font-AppleSDGothicNeoL00 text-[247.5%]">
             Welcome to{" "}
             <span className="font-AppleSDGothicNeoH00">COMMENCE</span>
           </span>
