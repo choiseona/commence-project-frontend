@@ -1,31 +1,31 @@
 import DownArrow from "@/assets/icons/category-DownArrow.svg";
 import UpArrow from "@/assets/icons/category-UpArrow.svg";
 import { cls } from "@/libs/util";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
 interface IParam {
   onMenuToggle: boolean;
   setOnMenuToggle: React.Dispatch<React.SetStateAction<boolean>>;
+  onAboutus:boolean;
+  setOnAboutus:React.Dispatch<React.SetStateAction<boolean>>
 }
 
-function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
-  const [onAboutus, setAboutus] = useState(false);
+function Menu({ onMenuToggle, setOnMenuToggle,onAboutus, setOnAboutus }: IParam) {
   const navigate = useNavigate();
 
   const onClickAboutus = () => {
-    setAboutus((prev) => !prev);
+    setOnAboutus((prev) => !prev);
   };
   const onNavigate = (url: string) => {
     navigate(url);
-    setOnMenuToggle((prev) => !prev);
-    onClickAboutus();
+    setOnMenuToggle(false);
+    setOnAboutus(false);
   };
   return (
     <div
       className={cls(
-        "fixed top-2 max-w-lg w-full h-full z-[5]",
+        "fixed top-2 max-w-[51.2rem] w-full h-full z-[5]",
         onMenuToggle ? "" : "invisible"
       )}
     >
@@ -34,27 +34,27 @@ function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
         onMenuToggle ? "opacity-100" : "opacity-0")}
       ></div>
       <div
-        className={cls("absolute top-[48px] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
+        className={cls("absolute top-[4.8rem] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
         onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
         )}
       >
         <div className="flex justify-center align-middle py-[45px]">
-          <span className="font-AppleSDGothicNeoL00 text-[1.225em]">
+          <span className="font-AppleSDGothicNeoL00 text-[247.5%]">
             Welcome to{" "}
-            <span className="font-AppleSDGothicNeoH00">COMMANCE</span>
+            <span className="font-AppleSDGothicNeoH00">COMMENCE</span>
           </span>
         </div>
         <div className="pl-[10.1%]">
-          <div className="font-AppleSDGothicNeoH00 text-[30px] mb-[45px]">
+          <div className="font-AppleSDGothicNeoH00 text-[3rem] mb-[4.5rem]">
             Menu
           </div>
-          <ul className="space-y-[30px]">
+          <ul className="space-y-[3rem]">
             <li>
               <div
                 onClick={onClickAboutus}
                 className="flex justify-between cursor-pointer"
               >
-                <span className="font-AppleSDGothicNeoL00 text-[23px] ">
+                <span className="font-AppleSDGothicNeoL00 text-[2.3rem] ">
                   About us
                 </span>
                 <img
@@ -63,15 +63,15 @@ function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
                 />
               </div>
               {onAboutus && (
-                <ul id="about_us-container" className="mt-[15px]">
+                <ul id="about_us-container" className="mt-[1.5rem]">
                   <li
-                    className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
+                    className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/about-us")}
                   >
                     -꼬망스의 40년
                   </li>
                   <li
-                    className="font-AppleSDGothicNeoM00 text-[14px] text-[#6E6E6E] cursor-pointer"
+                    className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/photo")}
                   >
                     -꼬망스의 1년
@@ -80,19 +80,19 @@ function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
               )}
             </li>
             <li
-              className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+              className="font-AppleSDGothicNeoL00 text-[2.3rem] cursor-pointer"
               onClick={() => onNavigate("/performance-video")}
             >
               Performance
             </li>
             <li
-              className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+              className="font-AppleSDGothicNeoL00 text-[2.3rem] cursor-pointer"
               onClick={() => onNavigate("/how-to-join")}
             >
               How to join
             </li>
             <li
-              className="font-AppleSDGothicNeoL00 text-[23px] cursor-pointer"
+              className="font-AppleSDGothicNeoL00 text-[2.3rem] cursor-pointer"
               onClick={() => onNavigate("/faq")}
             >
               FAQ

@@ -8,8 +8,8 @@ function FooterLinks() {
     window.open(url);
   };
   return (
-    <div className="flex flex-col space-y-[2px] pl-[37px] mt-[20px]">
-      <span className="font-AppleSDGothicNeoL00 text-[0.72em] text-[#6E6E6E]">
+    <div className="flex flex-col space-y-[0.2rem] pl-[3.7rem] mt-[2rem]">
+      <span className="font-AppleSDGothicNeoL00 text-[130%] text-[#6E6E6E]">
         COMMENCE SNS
       </span>
       <div
@@ -19,10 +19,10 @@ function FooterLinks() {
         <img
           src={youtubeSmallMarkPNG}
           alt="youtube-smallmark"
-          className="-ml-[3px]"
+          className="-ml-[0.3rem]"
           width={"5%"}
         />
-        <span className="font-AppleSDGothicNeoM00 text-[7px] -ml-[2px]">
+        <span className="font-AppleSDGothicNeoM00 text-[0.7rem] -ml-[0.2rem]">
           YOUTUBE
         </span>
       </div>
@@ -36,7 +36,7 @@ function FooterLinks() {
           width={"3.5%"}
           height={"4%"}
         />
-        <span className="font-AppleSDGothicNeoM00 text-[7px] ml-[2px]">
+        <span className="font-AppleSDGothicNeoM00 text-[0.7rem] ml-[0.2rem]">
           Instagram
         </span>
       </div>
