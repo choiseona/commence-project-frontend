@@ -19,8 +19,8 @@ function Menu({ onMenuToggle, setOnMenuToggle }: IParam) {
   };
   const onNavigate = (url: string) => {
     navigate(url);
-    setOnMenuToggle((prev) => !prev);
-    onClickAboutus();
+    setOnMenuToggle(false);
+    setAboutus(false);
   };
   return (
     <div
