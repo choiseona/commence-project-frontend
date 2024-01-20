@@ -11,10 +11,10 @@ function FirstAuditionExplaination() {
         </p>
       </div>
 
-      <p className="mt-[0.412rem] font-AppleSDGothicNeoL00 text-[1.3rem] leading-_normal">
+      <p className="mt-[0.412rem] font-AppleSDGothicNeoL00 text-[1.3rem] leading-_normal max-w-[33.8rem]">
         본인이 준비한 노래{" "}
         <span className="font-AppleSDGothicNeoB00">두 곡을 1절 분량</span>으로
-        가창 또는 연주를 합니다. <br /> 가창 또는 연주 이후 꼬망서로부터 짧게{" "}
+        가창 또는 연주를 합니다. 가창 또는 연주 이후 꼬망서로부터 짧게{" "}
         <span className="font-AppleSDGothicNeoB00">질의응답 시간</span>이
         있습니다.
       </p>
