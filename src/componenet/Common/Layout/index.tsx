@@ -3,14 +3,13 @@ import Header from "../Header";
 import Footer from "../Footer";
 
 function Layout() {
-  
   return (
     <div className="mt-[6rem]">
-      <Header/>
+      <Header />
       <Outlet />
-      <Footer/>
+      <Footer />
     </div>
   );
-};
+}
 
 export default Layout;

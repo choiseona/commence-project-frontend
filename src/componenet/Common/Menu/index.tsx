@@ -3,15 +3,19 @@ import UpArrow from "@/assets/icons/category-UpArrow.svg";
 import { cls } from "@/libs/util";
 import { useNavigate } from "react-router-dom";
 
-
 interface IParam {
   onMenuToggle: boolean;
   setOnMenuToggle: React.Dispatch<React.SetStateAction<boolean>>;
-  onAboutus:boolean;
-  setOnAboutus:React.Dispatch<React.SetStateAction<boolean>>
+  onAboutus: boolean;
+  setOnAboutus: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-function Menu({ onMenuToggle, setOnMenuToggle,onAboutus, setOnAboutus }: IParam) {
+function Menu({
+  onMenuToggle,
+  setOnMenuToggle,
+  onAboutus,
+  setOnAboutus,
+}: IParam) {
   const navigate = useNavigate();
 
   const onClickAboutus = () => {
@@ -30,12 +34,15 @@ function Menu({ onMenuToggle, setOnMenuToggle,onAboutus, setOnAboutus }: IParam)
       )}
     >
       <div
-        className={cls("w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black/25",
-        onMenuToggle ? "opacity-100" : "opacity-0")}
+        className={cls(
+          "w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black/25",
+          onMenuToggle ? "opacity-100" : "opacity-0"
+        )}
       ></div>
       <div
-        className={cls("absolute top-[4.8rem] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
-        onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
+        className={cls(
+          "absolute top-[4.8rem] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
+          onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
         )}
       >
         <div className="flex justify-center align-middle py-[45px]">

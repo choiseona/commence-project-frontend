@@ -5,10 +5,9 @@ import "./App.css";
 import PhotoGallery from "./pages/PhotoGallery";
 import About_us from "./pages/About-us";
 import Performance_Video from "./pages/Performance-Video";
-import How_to_join from "./pages/How-to-join";
+
 import FAQ from "./pages/FAQ";
-
-
+import HowToJoin from "./pages/HowToJoin";
 
 const router = createBrowserRouter([
   {
@@ -21,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about-us",
-        element: <About_us/>
+        element: <About_us />,
       },
       {
         path: "photo",
@@ -29,16 +28,16 @@ const router = createBrowserRouter([
       },
       {
         path: "performance-video",
-        element: <Performance_Video/>
+        element: <Performance_Video />,
       },
       {
-        path:"how-to-join",
-        element: <How_to_join/>
+        path: "how-to-join",
+        element: <HowToJoin />,
       },
       {
         path: "faq",
-        element: <FAQ/>
-      }
+        element: <FAQ />,
+      },
     ],
   },
 ]);
