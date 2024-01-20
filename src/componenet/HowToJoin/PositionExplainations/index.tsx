@@ -2,7 +2,7 @@ import PositionExplaination from "../PositionExplaination";
 
 function PositionExplainations() {
   return (
-    <div className="flex gap-[2.764rem]">
+    <div className="flex gap-[2.864rem]">
       <p className="font-tvNEnjoystoriesM text-[2.5rem] leading-[100%] w-[8rem] shrink-0 tracking-[-0.025rem]">
         지원 포지션&준비사항
       </p>
