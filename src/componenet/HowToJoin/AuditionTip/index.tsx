@@ -10,7 +10,7 @@ function AuditionTip() {
         </span>
       </p>
 
-      <div className="mx-[1.2rem] mb-[1.2rem] max-w-[32.1rem] text-center whitespace-pre-line mt-[1.4rem]">
+      <div className="mx-[1.2rem] mb-[1rem] max-w-[32.1rem] text-center whitespace-pre-line mt-[1.4rem]">
         <p className="font-AppleSDGothicNeoL00 text-[1.2rem] leading-_normal">
           {`레슨데이란 현직 꼬망서들이 예비 꼬망서들에게 1,2차 오디션 이전, 희망자에 한해 1:1 코칭 및 피드백을 해주는 날을 말합니다.\n현직 꼬망서들의 오디션 합격 노하우 전수 및 피드백을 통해 오디션 합격을 높일 수 있으니 꼭 참여하시길 바랍니다!`}
         </p>
