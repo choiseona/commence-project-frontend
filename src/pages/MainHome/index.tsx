@@ -1,10 +1,18 @@
+import CategoryBox from "@/componenet/MainHome/CategoryBox";
+import JoinUsButton from "@/componenet/MainHome/JoinUsButton";
+import MovingBanner from "@/componenet/MainHome/MovingBanner";
+import OuterLinks from "@/componenet/MainHome/OuterLinks";
+import SlideBanner from "@/componenet/MainHome/SlideBanner";
+
 const MainHome = () => {
   return (
-    <>
-      <div className="test2">Pretendard test</div>
-      <div className="text-red-400 test tracking-tighter">gfgfgfgfgfdfdf</div>
-      <div className="test3"> ggg</div>
-    </>
+    <div className="flex flex-col w-full">
+      <SlideBanner/>
+      <MovingBanner/>
+      <CategoryBox/>
+      <OuterLinks/>
+      <JoinUsButton/>
+    </div>
   );
 };
 
