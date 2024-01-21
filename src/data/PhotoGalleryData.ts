@@ -29,13 +29,13 @@ export const photoGalleryData = {
     items: [
       {
         src: testImage,
-        alt: "OB x YB 꼬망서 순수창작가요 발매 사진",
-        content: "OBxYB 꼬망서\n순수창작가요 발매",
+        alt: "새터 공연 사진",
+        content: "새터 공연",
       },
       {
         src: testImage,
-        alt: "동아리 박람회 사진",
-        content: "동아리 박람회",
+        alt: "순수창작 가요 발매 사진",
+        content: "순수창작 가요 발매",
       },
       {
         src: testImage,
@@ -71,8 +71,8 @@ export const photoGalleryData = {
     items: [
       {
         src: testImage,
-        alt: "클럽공연 사진",
-        content: "클럽공연",
+        alt: "OB&YB 연합 MT 사진",
+        content: "OB&YB 연합 MT",
       },
     ],
   },
