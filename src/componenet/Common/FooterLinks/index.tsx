@@ -1,5 +1,5 @@
-import youtubeSmallMarkPNG from "@/assets/images/youtue-smallmarkPNG.png";
-import instagramSmallMarkPNG from "@/assets/images/instagram-smallmarkPNG.png";
+//import youtubeSmallMarkPNG from "@/assets/images/youtue-smallmarkPNG.png";
+//import instagramSmallMarkPNG from "@/assets/images/instagram-smallmarkPNG.png";
 import youtubeSmallMark from "@/assets/icons/youtube-smallmark.svg"
 import instagramSmallMark from "@/assets/icons/instagram-smallmark.svg"
 
