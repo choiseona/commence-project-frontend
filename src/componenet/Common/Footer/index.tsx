@@ -5,7 +5,7 @@ import DeveloperButton from "../DeveloperButton";
 
 function Footer() {
   return (
-    <div title="footer" className="pt-[1.8rem] pb-[1rem] relative">
+    <div title="footer" className="pt-[1.8rem] pb-[1rem] relative bg-white">
       <DeveloperButton />
       <FooterTitle />
       <FooterText />
