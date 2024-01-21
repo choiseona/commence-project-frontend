@@ -1,5 +1,8 @@
 import youtubeSmallMarkPNG from "@/assets/images/youtue-smallmarkPNG.png";
 import instagramSmallMarkPNG from "@/assets/images/instagram-smallmarkPNG.png";
+import youtubeSmallMark from "@/assets/icons/youtube-smallmark.svg"
+import instagramSmallMark from "@/assets/icons/instagram-smallmark.svg"
+
 
 function FooterLinks() {
   const youtubeURL = "https://www.youtube.com/@commence-sw6xo";
@@ -17,12 +20,12 @@ function FooterLinks() {
         onClick={() => GotoOuterLink(youtubeURL)}
       >
         <img
-          src={youtubeSmallMarkPNG}
+          src={youtubeSmallMark}
           alt="youtube-smallmark"
           className="-ml-[0.3rem]"
-          width={"5%"}
+          width={"5.1%"}
         />
-        <span className="font-AppleSDGothicNeoM00 text-[0.7rem] -ml-[0.2rem]">
+        <span className="font-AppleSDGothicNeoM00 text-[0.7rem] -ml-[0.4%]">
           YOUTUBE
         </span>
       </div>
@@ -31,12 +34,12 @@ function FooterLinks() {
         onClick={() => GotoOuterLink(instaURL)}
       >
         <img
-          src={instagramSmallMarkPNG}
+          src={instagramSmallMark}
           alt="instagram-smallmark"
           width={"3.5%"}
           height={"4%"}
         />
-        <span className="font-AppleSDGothicNeoM00 text-[0.7rem] ml-[0.2rem]">
+        <span className="font-AppleSDGothicNeoM00 text-[0.7rem] ml-[0.5%]">
           Instagram
         </span>
       </div>
