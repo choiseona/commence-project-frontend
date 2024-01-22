@@ -1,4 +1,5 @@
 import CommenceMark from "@/componenet/Common/CommonMark";
+import Title from "@/componenet/Common/Title";
 import ApplyButton from "@/componenet/HowToJoin/ApplyButton";
 import AuditionProcedure from "@/componenet/HowToJoin/AuditionProcedure";
 import AuditionTip from "@/componenet/HowToJoin/AuditionTip";
@@ -7,7 +8,6 @@ import CommonExplainations from "@/componenet/HowToJoin/CommonExplainations";
 import FirstAuditionExplaination from "@/componenet/HowToJoin/FirstAuditionExplaination";
 import PositionExplainations from "@/componenet/HowToJoin/PositionExplainations";
 import SecondAuditionExplaination from "@/componenet/HowToJoin/SecondAuditionExplaination";
-import Title from "@/componenet/HowToJoin/Title";
 
 function HowToJoin() {
   return (
@@ -15,7 +15,7 @@ function HowToJoin() {
       <div className="fixed top-1/2 -translate-y-1/2">
         <CommenceMark />
       </div>
-      <Title />
+      <Title content="Join To COMMENCE" />
       <div className="mt-[4.933rem]">
         <CommonExplainations />
         <div className="mt-[4.225rem]" />
