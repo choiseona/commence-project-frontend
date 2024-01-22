@@ -32,11 +32,11 @@ function Genre({ genre }: GenreProps) {
 
 function Thumbnail({ imgSrc, alt }: ThumbnailProps) {
   return (
-    <div className="relative">
+    <div className="relative pb-[55%]">
       <img
         src={imgSrc}
         alt={alt}
-        className="w-full h-[9.75rem] rounded-[14px] shadow-[0_2px_2px_0_rgba(0,0,0,0.25)] cursor-pointer"
+        className="absolute w-full h-full rounded-[14px] object-cover shadow-[0_2px_2px_0_rgba(0,0,0,0.25)] cursor-pointer"
       />
       <img
         src={playIcon}
