@@ -11,6 +11,7 @@ interface GenreProps {
 interface ThumbnailProps {
   imgSrc: string;
   alt: string;
+  youtubeUrl: string;
 }
 
 interface InformationProps {
@@ -30,9 +31,12 @@ function Genre({ genre }: GenreProps) {
   );
 }
 
-function Thumbnail({ imgSrc, alt }: ThumbnailProps) {
+function Thumbnail({ imgSrc, alt, youtubeUrl }: ThumbnailProps) {
+  const onClick = () => {
+    window.location.href = youtubeUrl;
+  };
   return (
-    <div className="relative pb-[55%] cursor-pointer">
+    <div onClick={onClick} className="relative pb-[55%] cursor-pointer">
       <img
         src={imgSrc}
         alt={alt}

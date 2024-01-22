@@ -7,7 +7,11 @@ function VideoList() {
       {PerformanceVideoData.map((video, index) => (
         <VideoItem key={index}>
           <VideoItem.Genre genre={video.genre} />
-          <VideoItem.Thumbnail imgSrc={video.imgSrc} alt={video.alt} />
+          <VideoItem.Thumbnail
+            imgSrc={video.imgSrc}
+            alt={video.alt}
+            youtubeUrl={video.youtubeUrl}
+          />
           <VideoItem.Information title={video.title} singer={video.singer} />
         </VideoItem>
       ))}
