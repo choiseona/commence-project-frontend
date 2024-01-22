@@ -1,5 +1,5 @@
 //import commenceSmallMarkPNG from "@/assets/images/commence-smallmarkPNG.png";
-import commenceSmallMark from "@/assets/icons/commence-smallmark.svg"
+import commenceSmallMark from "@/assets/icons/commence-smallmark.svg";
 
 function FooterTitle() {
   return (
