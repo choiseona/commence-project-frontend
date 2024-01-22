@@ -3,11 +3,10 @@ import MainHome from "./pages/MainHome";
 import Layout from "./componenet/Common/Layout";
 import "./App.css";
 import PhotoGallery from "./pages/PhotoGallery";
-import About_us from "./pages/About-us";
-import Performance_Video from "./pages/Performance-Video";
-
 import FAQ from "./pages/FAQ";
 import HowToJoin from "./pages/HowToJoin";
+import AboutUs from "./pages/AboutUs";
+import PerformanceVideo from "./pages/PerformanceVideo";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about-us",
-        element: <About_us />,
+        element: <AboutUs />,
       },
       {
         path: "photo",
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
       },
       {
         path: "performance-video",
-        element: <Performance_Video />,
+        element: <PerformanceVideo />,
       },
       {
         path: "how-to-join",
