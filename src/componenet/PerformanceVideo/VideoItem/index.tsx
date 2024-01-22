@@ -36,7 +36,7 @@ function Thumbnail({ imgSrc, alt }: ThumbnailProps) {
       <img
         src={imgSrc}
         alt={alt}
-        className="w-full h-[9.75rem] rounded-[14px]  shadow-[0_2px_2px_0_rgba(0,0,0,0.25)] cursor-pointer"
+        className="w-full h-[9.75rem] rounded-[14px] shadow-[0_2px_2px_0_rgba(0,0,0,0.25)] cursor-pointer"
       />
       <img
         src={playIcon}
