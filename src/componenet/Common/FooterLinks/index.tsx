@@ -11,7 +11,7 @@ function FooterLinks() {
   };
   return (
     <div className="flex flex-col space-y-[0.2rem] pl-[3.7rem] mt-[2rem]">
-      <span className="font-AppleSDGothicNeoL00 text-[130%] text-[#6E6E6E]">
+      <span className="font-AppleSDGothicNeoM00 text-[130%] ">
         COMMENCE SNS
       </span>
       <div className="flex items-center cursor-pointer">
