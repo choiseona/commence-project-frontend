@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import SlideBannerText from "../SlideBannerText";
 
 interface IUseInterval {
   (callback: () => void, interval: number): void;
@@ -104,18 +105,7 @@ function SlideBanner() {
         className="relative h-[26.2rem] w-full flex justify-center items-center"
         ref={outRef}
       >
-        <div className="absolute z-[4] flex flex-col items-center top-[3rem]">
-          <span className="font-AppleSDGothicNeoSB00 text-[3rem]">
-            Who is Next?
-          </span>
-          <span className="font-AppleSDGothicNeoL00 text-[1.4rem] text-[#6E6E6E] -mt-[0.3rem]">
-            인하대 No.1 밴드 동아리{" "}
-            <span className="font-AppleSDGothicNeoSB00 text-[1.4rem] text-black">
-              꼬망스
-            </span>
-            에서 24학번 신입부원을 기다립니다.
-          </span>
-        </div>
+        <SlideBannerText />
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             className="bg-gray-300 w-full h-full absolute top-0 flex items-center justify-center"
