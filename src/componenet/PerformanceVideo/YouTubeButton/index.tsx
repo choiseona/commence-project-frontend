@@ -9,7 +9,7 @@ function YoutubeButton() {
   return (
     <button
       onClick={onClick}
-      className="px-[2.7rem] py-[1.4rem] flex justify-between items-center w-full max-w-[36rem] min-h-[5.6rem] rounded-[1.4rem] bg-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
+      className="px-[2.7rem] py-[1.4rem] flex justify-between items-center w-full min-h-[5.6rem] rounded-[1.4rem] bg-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"
     >
       <div>
         <p className="font-AppleSDGothicNeoL00 text-[1rem] leading-[100%] tracking-[-0.01rem]">

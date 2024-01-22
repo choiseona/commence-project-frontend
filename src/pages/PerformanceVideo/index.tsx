@@ -5,13 +5,15 @@ import YoutubeButton from "@/componenet/PerformanceVideo/YouTubeButton";
 
 function PerformanceVideo() {
   return (
-    <div className="mx-[1.7rem] flex flex-col justify-center items-center pt-[1.5rem] pb-[4.2rem]">
-      <Title content="Best Performance" />
-      <SubTitle />
-      <div className="mt-[3.3rem]" />
-      <VideoList />
-      <div className="mt-[2.2rem]" />
-      <YoutubeButton />
+    <div className="mx-[1.7rem] pt-[1.5rem] pb-[4.2rem] flex justify-center ">
+      <div className="w-full max-w-[35rem] flex flex-col justify-center items-center ">
+        <Title content="Best Performance" />
+        <SubTitle />
+        <div className="mt-[3.3rem]" />
+        <VideoList />
+        <div className="mt-[2.2rem]" />
+        <YoutubeButton />
+      </div>
     </div>
   );
 }
