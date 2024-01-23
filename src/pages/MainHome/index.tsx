@@ -1,7 +1,7 @@
 import CategoryBoxContainer from "@/componenet/MainHome/CategoryBoxContainer";
 import JoinUsButton from "@/componenet/MainHome/JoinUsButton";
 import MovingBanner from "@/componenet/MainHome/MovingBanner";
-import OuterLinks from "@/componenet/MainHome/OuterLinks";
+import OuterLinksContainer from "@/componenet/MainHome/OuterLinksContainer";
 import SlideBanner from "@/componenet/MainHome/SlideBanner";
 
 const MainHome = () => {
@@ -10,7 +10,7 @@ const MainHome = () => {
       <SlideBanner/>
       <MovingBanner/>
       <CategoryBoxContainer/>
-      <OuterLinks/>
+      <OuterLinksContainer/>
       <JoinUsButton/>
     </div>
   );

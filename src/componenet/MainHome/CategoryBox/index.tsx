@@ -33,7 +33,7 @@ function BoxMain({ children, link }: MainProps) {
 function Title({ title }: TitleProps) {
   return (
     <div className="flex flex-col space-y-[-0.7rem]">
-      <span className="font-AppleSDGothicNeoH00 text-[195%]">{title}</span>
+      <span className="font-AppleSDGothicNeoH00 text-[1.5rem]">{title}</span>
     </div>
   );
 }
@@ -41,7 +41,7 @@ function Title({ title }: TitleProps) {
 function BottomText({ bottomText }: BottomTextProps) {
   return (
     <div className="mb-[0.2rem] flex justify-between">
-      <span className="font-AppleSDGothicNeoL00 text-[100%] text-[#6E6E6E]">
+      <span className="font-AppleSDGothicNeoL00 text-[1rem] text-[#6E6E6E]">
         {bottomText}
       </span>
       <span className="flex justify-center items-center mr-[0.7rem]">
