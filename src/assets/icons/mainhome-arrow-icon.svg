@@ -1,0 +1,21 @@
+<svg
+    width="5"
+    height="7"
+    viewBox="0 0 5 7"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className="ml-[0.1rem]"
+>
+    <path
+        d="M1.0249 0.537354L3.88205 3.3945"
+        stroke="white"
+        stroke-width="0.5"
+        stroke-linecap="round"
+    />
+    <path
+        d="M1.0249 6.25165L3.88205 3.39451"
+        stroke="white"
+        stroke-width="0.5"
+        stroke-linecap="round"
+    />
+</svg>

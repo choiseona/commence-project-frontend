@@ -18,6 +18,10 @@ function Menu({
 }: IParam) {
   const navigate = useNavigate();
 
+  const onClickOverlay = () => {
+    setOnMenuToggle(false);
+    setOnAboutus(false);
+  }
   const onClickAboutus = () => {
     setOnAboutus((prev) => !prev);
   };
@@ -38,6 +42,7 @@ function Menu({
           "w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black/25",
           onMenuToggle ? "opacity-100" : "opacity-0"
         )}
+        onClick={onClickOverlay}
       ></div>
       <div
         className={cls(
