@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router";
 import whiteYoutubeMark from "@/assets/icons/white-youtube-mark.svg";
 import whiteInstagramMark from "@/assets/icons/white-instagram-mark.svg";
 import whiteCommenceMark from "@/assets/icons/white-commence-mark.svg";
