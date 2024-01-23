@@ -1,6 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import SlideBannerText from "../SlideBannerText";
 
 interface IUseInterval {
   (callback: () => void, interval: number): void;
@@ -105,7 +104,6 @@ function SlideBanner() {
         className="relative h-[26.2rem] w-full flex justify-center items-center"
         ref={outRef}
       >
-        <SlideBannerText />
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
             className="bg-gray-300 w-full h-full absolute top-0 flex items-center justify-center"
