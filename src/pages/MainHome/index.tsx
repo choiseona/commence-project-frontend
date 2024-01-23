@@ -1,4 +1,4 @@
-import CategoryBox from "@/componenet/MainHome/CategoryBox";
+import CategoryBoxContainer from "@/componenet/MainHome/CategoryBoxContainer";
 import JoinUsButton from "@/componenet/MainHome/JoinUsButton";
 import MovingBanner from "@/componenet/MainHome/MovingBanner";
 import OuterLinks from "@/componenet/MainHome/OuterLinks";
@@ -9,7 +9,7 @@ const MainHome = () => {
     <div className="flex flex-col w-full">
       <SlideBanner/>
       <MovingBanner/>
-      <CategoryBox/>
+      <CategoryBoxContainer/>
       <OuterLinks/>
       <JoinUsButton/>
     </div>
