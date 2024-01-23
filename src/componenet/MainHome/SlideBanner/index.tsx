@@ -10,7 +10,7 @@ interface IUseInterval {
 const variants = {
   enter: (direction: number) => {
     return {
-      x: direction > 0 ? 1000 : -1000,
+      x: direction > 0 ? 200 : -200,
       opacity: 0,
     };
   },
@@ -22,7 +22,7 @@ const variants = {
   exit: (direction: number) => {
     return {
       zIndex: 0,
-      x: direction < 0 ? 1000 : -1000,
+      x: direction < 0 ? 200 : -200,
       opacity: 0,
     };
   },
@@ -116,7 +116,7 @@ function SlideBanner() {
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "spring", stiffness: 300, damping: 30 },
+              x: { type: "spring", stiffness: 200, damping: 70 },
               opacity: { duration: 0.3 },
             }}
             drag="x"
