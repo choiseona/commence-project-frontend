@@ -1,4 +1,4 @@
-import smallColorDat from "@/assets/icons/small-color-dat.svg";
+
 
 interface AwardItemProps {
   color: number;
