@@ -100,7 +100,7 @@ function SlideBanner() {
   }, [custominterval]);
 
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <div
         className="relative h-[26.2rem] w-full flex justify-center items-center"
         ref={outRef}
@@ -116,7 +116,7 @@ function SlideBanner() {
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "spring", stiffness: 200, damping: 70 },
+              x: { type: "spring", stiffness: 700, damping: 70 },
               opacity: { duration: 0.3 },
             }}
             drag="x"
