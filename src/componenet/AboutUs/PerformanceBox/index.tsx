@@ -1,6 +1,7 @@
 import whiteArrow from "@/assets/icons/white-arrow.svg";
 import { useState } from "react";
 import test from "@/assets/images/test.png";
+import { cls } from "@/libs/util";
 
 interface PerformanceBoxProps {
   month: string;
@@ -40,7 +41,7 @@ function PerformanceBox({ month, show, contents, color }: PerformanceBoxProps) {
           </span>
         </div>
         {toggle ? (
-          <div className="mt-[0.9rem] ml-[2rem] mr-[1rem] w-[60%] font-AppleSDGothicNeoM00 text-[1.2rem]">
+          <div className=" ml-[2rem] mr-[1rem] w-[60%] h-[12rem] font-AppleSDGothicNeoM00 text-[1.2rem] flex justify-center items-center">
             {contents}
           </div>
         ) : (
@@ -52,17 +53,13 @@ function PerformanceBox({ month, show, contents, color }: PerformanceBoxProps) {
           </div>
         )}
       </div>
-      {toggle ? (
-        <img
-          className="absolute bottom-[1rem] left-[1rem] -scale-x-100 w-[1.7rem] h-[1.7rem]"
-          src={whiteArrow}
-        />
-      ) : (
-        <img
-          className="absolute bottom-[1rem] left-[1rem] w-[1.7rem] h-[1.7rem]"
-          src={whiteArrow}
-        />
-      )}
+      <img
+        className={cls(
+          "absolute bottom-[1rem] left-[1rem] w-[1.7rem] h-[1.7rem]",
+          toggle ? "-scale-x-100" : ""
+        )}
+        src={whiteArrow}
+      />
     </div>
   );
 }

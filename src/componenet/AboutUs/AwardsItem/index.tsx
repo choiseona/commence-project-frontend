@@ -1,5 +1,3 @@
-
-
 interface AwardItemProps {
   color: number;
   year: string;
@@ -38,7 +36,7 @@ function AwardsItem({ color, year, awards }: AwardItemProps) {
     <div className="flex flex-col">
       <div className="flex">
         <svg
-        className="z-[4]"
+          className="z-[4]"
           width="19"
           height="19"
           viewBox="0 0 19 19"
@@ -46,7 +44,12 @@ function AwardsItem({ color, year, awards }: AwardItemProps) {
           xmlns="http://www.w3.org/2000/svg"
         >
           <g filter="url(#filter0_d_457_481)">
-            <circle cx="9.77344" cy="5.74902" r="5" fill={`${ColorConfig[color]}`} />
+            <circle
+              cx="9.77344"
+              cy="5.74902"
+              r="5"
+              fill={`${ColorConfig[color]}`}
+            />
           </g>
           <defs>
             <filter
