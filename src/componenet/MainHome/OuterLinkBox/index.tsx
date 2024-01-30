@@ -1,7 +1,3 @@
-import whiteYoutubeMark from "@/assets/icons/white-youtube-mark.svg";
-import whiteInstagramMark from "@/assets/icons/white-instagram-mark.svg";
-import whiteCommenceMark from "@/assets/icons/white-commence-mark.svg";
-import whiteArrow from "@/assets/icons/white-arrow.svg";
 import { SvgName } from "@/data/OuterLinkBoxData";
 
 interface MainProps {
@@ -19,6 +15,8 @@ interface TitleProps {
 
 interface SvgProps {
   svg: string;
+  src: string;
+  alt: string;
 }
 
 function BoxMain({ children, link }: MainProps) {
@@ -27,7 +25,7 @@ function BoxMain({ children, link }: MainProps) {
   };
   return (
     <div
-      className="relative w-full h-[6.1rem] bg-[#8D8D8D] rounded-[0.5rem] shadow-[0.2rem_0.4rem_0.6rem_0_rgba(0,0,0,0.25)] flex justify-center items-center cursor-pointer transition-all hover:-translate-y-[0.2rem] hover:shadow-[0.4rem_0.6rem_0.6rem_0_rgba(0,0,0,0.25)]"
+      className="relative w-full h-[6.1rem] bg-[#727272] rounded-[0.5rem] shadow-[0.2rem_0.4rem_0.6rem_0_rgba(0,0,0,0.25)] flex justify-center items-center cursor-pointer transition-all hover:-translate-y-[0.2rem] hover:shadow-[0.4rem_0.6rem_0.6rem_0_rgba(0,0,0,0.25)]"
       onClick={onClick}
     >
       {children}
@@ -43,32 +41,20 @@ function Content({ children }: ContentProps) {
   );
 }
 
-function Svg({ svg }: SvgProps) {
+function Svg({ svg, src, alt }: SvgProps) {
   return (
-    <>
-      {svg === SvgName.YOUTUBE && (
-        <div>
-          <img src={whiteYoutubeMark} alt="whiteYoutubeMark" />
-        </div>
-      )}
-      {svg === SvgName.INSTAGRAM && (
-        <div>
-          <img src={whiteInstagramMark} alt="whiteInstagramMark" />
-        </div>
-      )}
-      {svg === SvgName.COMMENCE && (
-        <div className="-mr-[0.9rem] -ml-[1rem]">
-          <img src={whiteCommenceMark} alt="whiteCommenceMark" />
-        </div>
-      )}
-    </>
+    <div
+      className={svg === SvgName.COMMENCE ? "-mr-[0.9rem] -ml-[0.5rem]" : ""}
+    >
+      <img src={src} alt={alt} />
+    </div>
   );
 }
 
 function Title({ title }: TitleProps) {
   return (
     <div className="flex flex-col space-y-[-0.3rem] mt-[0.2rem]">
-      <span className="font-AppleSDGothicNeoH00 text-[1.1rem] text-white">
+      <span className="font-AppleSDGothicNeoH00 text-[1rem] text-white">
         {title}
       </span>
       <span className="font-AppleSDGothicNeoL00 text-[0.8rem] text-white">
@@ -78,17 +64,8 @@ function Title({ title }: TitleProps) {
   );
 }
 
-function Button() {
-  return (
-    <div className="absolute bottom-[0.5rem] right-[0.5rem] flex justify-center items-center">
-      <img src={whiteArrow} alt="whiteArrow" />
-    </div>
-  );
-}
-
 export const OuterLinkBox = Object.assign(BoxMain, {
   Content: Content,
   Title: Title,
   Svg: Svg,
-  Button: Button,
 });
