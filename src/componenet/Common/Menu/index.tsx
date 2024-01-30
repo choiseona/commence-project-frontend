@@ -80,13 +80,13 @@ function Menu({
                     className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/about-us")}
                   >
-                    -꼬망스의 40년
+                    -About COMMENCE
                   </li>
                   <li
                     className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/photo")}
                   >
-                    -꼬망스의 1년
+                    -COMMENCE’s 2023
                   </li>
                 </ul>
               )}
