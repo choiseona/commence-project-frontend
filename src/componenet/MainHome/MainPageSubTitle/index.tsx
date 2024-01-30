@@ -8,7 +8,7 @@ function MainPageSubTitle({mainText,subText}:SubTitleProps){
     <span className="font-AppleSDGothicNeoH00 text-[1.5rem]">
       {mainText}
     </span>
-    <span className="font-AppleSDGothicNeoL00 text-[0.8rem] text-[#6E6E6E] leading-[100%] tracking-[0.04rem]">
+    <span className="font-AppleSDGothicNeoL00 text-[1rem] leading-[100%] tracking-[0.04rem]">
       {subText}
     </span>
   </div>
