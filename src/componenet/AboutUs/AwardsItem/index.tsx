@@ -36,7 +36,7 @@ function AwardsItem({ color, year, awards }: AwardItemProps) {
     <div className="flex flex-col">
       <div className="flex">
         <svg
-          className="z-[4]"
+          className="z-[4] mt-[1rem]"
           width="19"
           height="19"
           viewBox="0 0 19 19"

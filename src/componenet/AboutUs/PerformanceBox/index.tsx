@@ -7,16 +7,10 @@ interface PerformanceBoxProps {
   month: string;
   show: string;
   contents: string;
-  color: number;
 }
 
-const BgConfig = [
-  "bg-[#9B9B9B]",
-  "bg-[#696969]",
-  "bg-[#323232]",
-  "bg-[#262626]",
-];
-function PerformanceBox({ month, show, contents, color }: PerformanceBoxProps) {
+
+function PerformanceBox({ month, show, contents}: PerformanceBoxProps) {
   const [toggle, setToggle] = useState(false);
   const onMouseEnter = () => {
     setToggle(true);
@@ -27,27 +21,27 @@ function PerformanceBox({ month, show, contents, color }: PerformanceBoxProps) {
 
   return (
     <div
-      className={`w-full relative h-[12rem] rounded-[1rem] shadow-[0_0.4rem_0.4rem_0_rgba(0,0,0,0.25)] ${BgConfig[color]}`}
+      className="w-full relative h-[10.1rem] rounded-[1.4rem] shadow-[0_0.4rem_0.4rem_0_rgba(0,0,0,0.25)] bg-white"
       onMouseOver={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <div className="flex justify-between text-white pl-[1.4rem] ">
-        <div className="flex flex-col w-[8.6rem] h-[7rem] pt-[1.14rem]">
+      <div className="flex justify-between text-black pl-[1.4rem] h-full">
+        <div className="flex flex-col h-full pt-[1.14rem]">
           <span className="w-full font-AppleSDGothicNeoB00 text-[2rem] font-extrabold">
             {month}
           </span>
-          <span className="w-full -mt-[0.9rem] font-tvNEnjoystoriesL text-[2rem]">
+          <span className="w-full -mt-[0.6rem] font-AppleSDGothicNeoL00 text-[1.2rem] text-black/70">
             {show}
           </span>
         </div>
         {toggle ? (
-          <div className=" ml-[2rem] mr-[1rem] w-[60%] h-[12rem] font-AppleSDGothicNeoM00 text-[1.2rem] flex justify-center items-center">
+          <div className=" w-[60.7%] h-full font-AppleSDGothicNeoM00 text-[1.15rem] mr-[1.327rem] tracking-tighter flex justify-center items-center">
             {contents}
           </div>
         ) : (
-          <div className="mt-[1.5rem] ml-[2rem] mr-[1rem] w-[60%] h-[9.2rem] flex flex-col justify-center items-center">
+          <div className="w-[52.72%] h-full flex flex-col justify-center items-center">
             <img
-              className="rounded-[1.2rem] w-full h-full overflow-hidden text-center bg-center bg-cover"
+              className="rounded-[1.2rem] w-full h-[8.281rem] overflow-hidden text-center bg-center bg-cover mr-[1.327rem]"
               src={test}
             />
           </div>
