@@ -14,10 +14,9 @@ function OuterLinksContainer() {
         {OuterLinkBoxData.map((box,index) => (
             <OuterLinkBox key={index} link={box.link}>
                 <OuterLinkBox.Content>
-                    <OuterLinkBox.Svg svg={box.svg}/>
+                    <OuterLinkBox.Svg svg={box.svg} src={box.src} alt={box.alt}/>
                     <OuterLinkBox.Title title={box.title}/>
                 </OuterLinkBox.Content>
-                <OuterLinkBox.Button/>
             </OuterLinkBox>
         ))}
       </div>

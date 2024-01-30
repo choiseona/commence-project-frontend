@@ -13,7 +13,7 @@ function JoinUsButton() {
         subText={"아름다운 청춘의 한 장, 꼬망스에서 함께해요"}
       />
       <button
-        className="relative w-full bg-[#474747] flex justify-center items-center rounded-[1rem]  shadow-[0.2rem_0.4rem_0.6rem_0_rgba(0,0,0,0.25)] transition-all hover:shadow-[0.4rem_0.6rem_0.8rem_0_rgba(0,0,0,0.25)]"
+        className="relative w-full bg-[#393939] flex justify-center items-center rounded-[1.6rem]  shadow-[0.2rem_0.4rem_0.6rem_0_rgba(0,0,0,0.25)] transition-all hover:shadow-[0.4rem_0.6rem_0.8rem_0_rgba(0,0,0,0.25)]"
         onClick={onClick}
       >
         <span className="font-AppleSDGothicNeoB00 text-white text-[1.3rem] py-[0.97rem]">
