@@ -1,6 +1,10 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import SlideBannerText from "../SlideBannerText";
+import slideimg1 from "@/assets/images/slideimg1.jpg";
+import slideimg2 from "@/assets/images/slideimg2.jpg";
+import slideimg3 from "@/assets/images/slideimg3.jpg";
+import slideimg4 from "@/assets/images/slideimg4.jpg";
 
 interface IUseInterval {
   (callback: () => void, interval: number): void;
@@ -17,7 +21,7 @@ const variants = {
   center: {
     zIndex: 1,
     x: 0,
-    opacity: 1,
+    opacity: 0.5,
   },
   exit: (direction: number) => {
     return {
@@ -61,7 +65,7 @@ function SlideBanner() {
   const [[page, direction], setPage] = useState([0, 0]);
   const [custominterval, setCustomInterval] = useState(5000);
   const outRef = useRef<HTMLDivElement>(null);
-  const slides = ["슬라이드1", "슬라이드2", "슬라이드3", "슬라이드4"];
+  const slides = [slideimg1, slideimg2, slideimg3, slideimg4];
 
   const Nextpaginate = () => {
     setPage([(page + 1) % slides.length, 1]);
@@ -107,8 +111,10 @@ function SlideBanner() {
       >
         <SlideBannerText />
         <AnimatePresence initial={false} custom={direction}>
-          <motion.div
-            className="bg-gray-300 w-full h-full absolute top-0 flex items-center justify-center"
+          <motion.img
+            src={slides[page]}
+            className="w-full h-full absolute top-0 flex items-center justify-center grayscale "
+            alt="slide"
             key={page}
             custom={direction}
             variants={variants}
@@ -131,19 +137,9 @@ function SlideBanner() {
                 Prevpaginate();
               }
             }}
-          >
-            {slides[page]}
-          </motion.div>
+          />
         </AnimatePresence>
-        <div className="absolute bottom-[0.5rem] flex items-center justify-center mt-3 space-x-1 z-[3]">
-          {slides.map((i) =>
-            slides.indexOf(i) === page ? (
-              <div key={i} className="w-3 h-3 rounded-full bg-white" />
-            ) : (
-              <div key={i} className="w-3 h-3 rounded-full bg-black" />
-            )
-          )}
-        </div>
+        
       </div>
     </div>
   );
