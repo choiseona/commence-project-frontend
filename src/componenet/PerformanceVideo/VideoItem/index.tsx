@@ -33,7 +33,7 @@ function Genre({ genre }: GenreProps) {
 
 function Thumbnail({ imgSrc, alt, youtubeUrl }: ThumbnailProps) {
   const onClick = () => {
-    window.location.href = youtubeUrl;
+    window.open(youtubeUrl);
   };
   return (
     <div onClick={onClick} className="relative pb-[55%] cursor-pointer">

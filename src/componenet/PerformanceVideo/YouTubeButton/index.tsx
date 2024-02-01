@@ -3,7 +3,7 @@ import youtubeMark from "@/assets/icons/youtube-redmark.svg";
 function YoutubeButton() {
   const COMMENCE_YOUTUBE_CHANNEL = "https://www.youtube.com/@commence-sw6xo";
   const onClick = () => {
-    window.location.href = COMMENCE_YOUTUBE_CHANNEL;
+    window.open(COMMENCE_YOUTUBE_CHANNEL);
   };
 
   return (
