@@ -22,7 +22,7 @@ function BoxMain({ children, link }: MainProps) {
   };
   return (
     <div
-      className="w-full h-[9.2rem] bg-white rounded-[0.5rem] shadow-[0.2rem_0.4rem_0.6rem_0_rgba(0,0,0,0.25)] pl-[4.5%] pt-[0.7rem] flex flex-col justify-between cursor-pointer transition-all hover:-translate-y-[0.2rem] hover:shadow-[0.4rem_0.6rem_0.6rem_0_rgba(0,0,0,0.25)]"
+      className="w-full h-[9.2rem] bg-white rounded-[1rem] shadow-[0.2rem_0.4rem_0.6rem_0_rgba(0,0,0,0.25)] pl-[4.5%] pt-[0.7rem] flex flex-col justify-center cursor-pointer transition-all hover:-translate-y-[0.2rem] hover:shadow-[0.4rem_0.6rem_0.6rem_0_rgba(0,0,0,0.25)]"
       onClick={onClick}
     >
       {children}
@@ -33,7 +33,7 @@ function BoxMain({ children, link }: MainProps) {
 function Title({ title }: TitleProps) {
   return (
     <div className="flex flex-col space-y-[-0.7rem]">
-      <span className="font-AppleSDGothicNeoH00 text-[1.5rem]">{title}</span>
+      <span className="text-black font-AppleSDGothicNeoH00 text-[1.5rem]">{title}</span>
     </div>
   );
 }
@@ -41,7 +41,7 @@ function Title({ title }: TitleProps) {
 function BottomText({ bottomText }: BottomTextProps) {
   return (
     <div className="mb-[0.2rem] flex justify-between">
-      <span className="font-AppleSDGothicNeoL00 text-[1rem] text-[#6E6E6E]">
+      <span className="text-black font-AppleSDGothicNeoL00 text-[1.2rem]">
         {bottomText}
       </span>
       <span className="flex justify-center items-center mr-[0.7rem]">

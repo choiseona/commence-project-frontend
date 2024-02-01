@@ -46,7 +46,7 @@ function Menu({
       ></div>
       <div
         className={cls(
-          "absolute top-[4.8rem] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white z-[5] duration-300 ease-out transition-all",
+          "absolute top-[4.8rem] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white text-black z-[5] duration-300 ease-out transition-all",
           onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
         )}
       >
@@ -80,13 +80,13 @@ function Menu({
                     className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/about-us")}
                   >
-                    -꼬망스의 40년
+                    -About COMMENCE
                   </li>
                   <li
                     className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/photo")}
                   >
-                    -꼬망스의 1년
+                    -COMMENCE’s 2023
                   </li>
                 </ul>
               )}
