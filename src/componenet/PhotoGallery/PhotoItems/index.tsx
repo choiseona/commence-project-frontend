@@ -25,7 +25,7 @@ function PhotoItems() {
             <PhotoItem key={index} imageKey={`${month}_${index + 1}`}>
               {index == 0 && (
                 <p
-                  className={`${marginBottomVariants[month]} absolute font-tvNEnjoystoriesM text-[30px] leading-[100%] tracking-[-0.3px]`}
+                  className={`${marginBottomVariants[month]} absolute font-AppleSDGothicNeoB00 text-[25px] leading-_normal tracking-[-1%]`}
                 >
                   {month}
                 </p>
