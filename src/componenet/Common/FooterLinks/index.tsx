@@ -11,7 +11,7 @@ function FooterLinks() {
   };
   return (
     <div className="flex flex-col space-y-[0.2rem] pl-[3.7rem] mt-[2rem]">
-      <span className="font-AppleSDGothicNeoM00 text-[130%] ">
+      <span className="font-AppleSDGothicNeoM00 text-black text-[130%] ">
         COMMENCE SNS
       </span>
       <div className="flex items-center cursor-pointer">
@@ -22,7 +22,7 @@ function FooterLinks() {
           width={"5.1%"}
         />
         <span
-          className="font-AppleSDGothicNeoM00 text-[0.7rem] -ml-[0.4%]"
+          className="font-AppleSDGothicNeoM00 text-[0.7rem] text-black -ml-[0.4%]"
           onClick={() => GotoOuterLink(youtubeURL)}
         >
           YOUTUBE
@@ -36,7 +36,7 @@ function FooterLinks() {
           height={"4%"}
         />
         <span
-          className="font-AppleSDGothicNeoM00 text-[0.7rem] ml-[0.5%]"
+          className="font-AppleSDGothicNeoM00 text-[0.7rem] text-black ml-[0.5%]"
           onClick={() => GotoOuterLink(instaURL)}
         >
           Instagram

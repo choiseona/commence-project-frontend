@@ -21,7 +21,7 @@ function Header() {
     <>
       <nav className="fixed top-0 max-w-[51.2rem] w-full bg-white h-[6rem] z-10">
         <div className="h-full w-full flex justify-center items-center">
-          <span className="text-[310%] font-Pretendard cursor-pointer" onClick={onClickHeader}>COMMENCE</span>
+          <span className="text-[310%] text-black font-Pretendard cursor-pointer" onClick={onClickHeader}>COMMENCE</span>
           <span className="absolute right-[3rem] cursor-pointer">
             <img src={menuIcon} alt="menu-icon" onClick={onClickMenu}  />
           </span>
