@@ -1,10 +1,10 @@
 function SlideBannerText() {
   return (
-    <div className="absolute z-[4] flex flex-col items-center top-[3rem]">
+    <div className="absolute z-[4] flex flex-col items-center top-[3rem] [text-shadow:_0_0.4rem_0.4rem_rgb(0_0_0_/_25%)]">
       <span className="font-AppleSDGothicNeoSB00 text-[3rem] text-black">
         Who is Next?
       </span>
-      <span className="font-AppleSDGothicNeoL00 text-[1.4rem] text-black  -mt-[0.3rem]">
+      <span className="font-AppleSDGothicNeoL00 text-[1.4rem] text-black  -mt-[0.3rem] ">
         인하대 No.1 밴드 동아리{" "}
         <span className="font-AppleSDGothicNeoSB00 text-[1.4rem] text-black">
           꼬망스
