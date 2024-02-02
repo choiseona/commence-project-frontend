@@ -1,15 +1,13 @@
 import Title from "@/componenet/Common/Title";
-import SubTitle from "@/componenet/PerformanceVideo/SubTitle";
 import VideoList from "@/componenet/PerformanceVideo/VideoList";
 import YoutubeButton from "@/componenet/PerformanceVideo/YouTubeButton";
 
 function PerformanceVideo() {
   return (
-    <div className="mx-[1.7rem] pt-[1.5rem] pb-[4.2rem] flex justify-center ">
-      <div className="w-full max-w-[35rem] flex flex-col justify-center items-center ">
+    <div className="mx-[1.7rem] pt-[4rem] pb-[4.2rem] flex justify-center ">
+      <div className="w-full max-w-[36rem] flex flex-col justify-center items-center ">
         <Title content="Best Performance" />
-        <SubTitle />
-        <div className="mt-[3.3rem]" />
+        <div className="mt-[2rem]" />
         <VideoList />
         <div className="mt-[2.2rem]" />
         <YoutubeButton />
