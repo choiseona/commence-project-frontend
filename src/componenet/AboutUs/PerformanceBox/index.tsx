@@ -7,10 +7,11 @@ interface PerformanceBoxProps {
   month: string;
   show: string;
   contents: string;
+  photo:string;
 }
 
 
-function PerformanceBox({ month, show, contents}: PerformanceBoxProps) {
+function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
   const [toggle, setToggle] = useState(false);
   const onMouseEnter = () => {
     setToggle(true);
@@ -21,7 +22,7 @@ function PerformanceBox({ month, show, contents}: PerformanceBoxProps) {
 
   return (
     <div
-      className="w-full relative h-[10.1rem] rounded-[1.4rem] shadow-[0_0.4rem_0.4rem_0_rgba(0,0,0,0.25)] bg-white"
+      className="w-full relative h-[12rem] rounded-[1.4rem] shadow-[0_0.4rem_0.4rem_0_rgba(0,0,0,0.25)] bg-white"
       onMouseOver={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
@@ -41,8 +42,8 @@ function PerformanceBox({ month, show, contents}: PerformanceBoxProps) {
         ) : (
           <div className="w-[52.72%] h-full flex flex-col justify-center items-center">
             <img
-              className="rounded-[1.2rem] w-full h-[8.281rem] overflow-hidden text-center bg-center bg-cover mr-[1.327rem]"
-              src={test}
+              className="rounded-[1.2rem] w-full h-[10rem] overflow-hidden text-center bg-center bg-cover mr-[1.327rem]"
+              src={photo}
             />
           </div>
         )}
