@@ -13,6 +13,7 @@ import september_1 from "@/assets/images/september-1.jpg";
 import october_1 from "@/assets/images/october-1.jpg";
 import november_1 from "@/assets/images/november-1.jpg";
 import december_1 from "@/assets/images/december-1.jpg";
+import test from "@/assets/images/test.svg";
 
 export const photoGalleryData = {
   January: {
