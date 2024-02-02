@@ -1,6 +1,5 @@
 import whiteArrow from "@/assets/icons/white-arrow.svg";
 import { useState } from "react";
-import test from "@/assets/images/test.png";
 import { cls } from "@/libs/util";
 
 interface PerformanceBoxProps {
