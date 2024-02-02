@@ -1,10 +1,10 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import SlideBannerText from "../SlideBannerText";
-import slideimg1 from "@/assets/images/slideimg1.jpg";
-import slideimg2 from "@/assets/images/slideimg2.jpg";
-import slideimg3 from "@/assets/images/slideimg3.jpg";
-import slideimg4 from "@/assets/images/slideimg4.jpg";
+import slideimg1 from "@/assets/images/slide1.jpg";
+import slideimg2 from "@/assets/images/may-2.jpg";
+import slideimg3 from "@/assets/images/may-1.jpg";
+import slideimg4 from "@/assets/images/slide4.jpg";
 
 interface IUseInterval {
   (callback: () => void, interval: number): void;
@@ -21,7 +21,7 @@ const variants = {
   center: {
     zIndex: 1,
     x: 0,
-    opacity: 0.5,
+    opacity: 0.6,
   },
   exit: (direction: number) => {
     return {
@@ -106,7 +106,7 @@ function SlideBanner() {
   return (
     <div className="overflow-x-hidden">
       <div
-        className="relative h-[26.2rem] w-full flex justify-center items-center"
+        className="relative  h-[30rem] max-[450px]:h-[28.2rem] w-full flex justify-center items-center"
         ref={outRef}
       >
         <SlideBannerText />
