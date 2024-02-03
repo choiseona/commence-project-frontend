@@ -45,8 +45,8 @@ function BottomText({ bottomText }: BottomTextProps) {
         {bottomText}
       </span>
       <span className="flex justify-center items-center mr-[0.7rem]">
-        <div className="w-[1rem] h-[1rem] rounded-full bg-black flex justify-center items-center">
-          <img src={mainhomeArrowIcon} alt="mainhome-arrow-icon" />
+        <div className="w-[1.5rem] h-[1.5rem] rounded-full bg-black flex justify-center items-center">
+          <img src={mainhomeArrowIcon} alt="mainhome-arrow-icon" className="ml-[0.1rem]" />
         </div>
       </span>
     </div>
