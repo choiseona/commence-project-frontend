@@ -9,7 +9,7 @@ function PositionExplaination({ position, preparation }: Props) {
       <p className="font-AppleSDGothicNeoB00 text-[1.2rem] leading-[2rem] w-[3.2rem] shrink-0">
         {position}
       </p>
-      <p className="font-AppleSDGothicNeoM00 text-[1.2rem] leading-[2rem] text-black opacity-70">
+      <p className="font-AppleSDGothicNeoM00 text-[1.2rem] leading-[2rem] opacity-70">
         {preparation}
       </p>
     </div>

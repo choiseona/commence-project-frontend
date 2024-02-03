@@ -25,7 +25,7 @@ function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
       onMouseOver={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
-      <div className="flex justify-between text-black pl-[1.4rem] h-full">
+      <div className="flex justify-between pl-[1.4rem] h-full">
         <div className="flex flex-col h-full pt-[1.14rem]">
           <span className="w-full font-AppleSDGothicNeoB00 text-[2rem] font-extrabold">
             {month}
