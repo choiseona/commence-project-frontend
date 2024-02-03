@@ -77,7 +77,7 @@ function Menu({
                     -About COMMENCE
                   </li>
                   <li
-                    className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
+                    className="mt-[1rem] font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/photo")}
                   >
                     -COMMENCE’s 2023
