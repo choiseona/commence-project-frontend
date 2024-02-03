@@ -46,17 +46,11 @@ function Menu({
       ></div>
       <div
         className={cls(
-          "absolute top-[4.8rem] right-0 w-[80%] h-fit rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] pb-[30%] bg-white text-black z-[5] duration-300 ease-out transition-all",
+          "absolute top-[4.8rem] right-0 w-[62.4%] h-[60rem] rounded-bl-[30px] shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] bg-white text-black z-[5] duration-300 ease-out transition-all",
           onMenuToggle ? "opacity-100" : "opacity-0 translate-x-full"
         )}
       >
-        <div className="flex justify-center align-middle py-[45px]">
-          <span className="font-AppleSDGothicNeoL00 text-[247.5%]">
-            Welcome to{" "}
-            <span className="font-AppleSDGothicNeoH00">COMMENCE</span>
-          </span>
-        </div>
-        <div className="pl-[10.1%]">
+        <div className="pl-[10.1%] pt-[8rem]">
           <div className="font-AppleSDGothicNeoH00 text-[3rem] mb-[4.5rem]">
             Menu
           </div>

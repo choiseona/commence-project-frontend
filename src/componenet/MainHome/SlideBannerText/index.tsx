@@ -1,6 +1,6 @@
 function SlideBannerText() {
   return (
-    <div className="absolute z-[4] flex flex-col items-center top-[3rem] [text-shadow:_0_0.4rem_0.4rem_rgb(0_0_0_/_25%)]">
+    <div className="absolute z-[4] flex flex-col items-center top-[7rem] [text-shadow:_0_0.4rem_0.4rem_rgb(0_0_0_/_25%)]">
       <span className="font-AppleSDGothicNeoSB00 text-[3rem] text-black">
         Who is Next?
       </span>
