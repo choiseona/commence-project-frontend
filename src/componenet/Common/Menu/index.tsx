@@ -74,13 +74,13 @@ function Menu({
                     className="font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/about-us")}
                   >
-                    -About COMMENCE
+                    - About COMMENCE
                   </li>
                   <li
                     className="mt-[1rem] font-AppleSDGothicNeoM00 text-[1.4rem] text-[#6E6E6E] cursor-pointer"
                     onClick={() => onNavigate("/photo")}
                   >
-                    -COMMENCE’s 2023
+                    - COMMENCE’s 2023
                   </li>
                 </ul>
               )}

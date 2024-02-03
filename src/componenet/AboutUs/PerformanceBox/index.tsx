@@ -12,18 +12,14 @@ interface PerformanceBoxProps {
 
 function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
   const [toggle, setToggle] = useState(false);
-  const onMouseEnter = () => {
-    setToggle(true);
-  };
-  const onMouseLeave = () => {
-    setToggle(false);
+  const onClick = () => {
+    setToggle((prev) => !prev);
   };
 
   return (
     <div
       className="w-full relative h-[12rem] rounded-[1.4rem] shadow-[0_0.4rem_0.4rem_0_rgba(0,0,0,0.25)] bg-white"
-      onMouseOver={onMouseEnter}
-      onMouseLeave={onMouseLeave}
+      onClick={onClick}
     >
       <div className="flex justify-between pl-[1.4rem] h-full">
         <div className="flex flex-col h-full pt-[1.14rem]">
