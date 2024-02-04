@@ -12,7 +12,7 @@ function CommonExplaination({ title, content, additionalContent }: Props) {
       </p>
       <p className="font-AppleSDGothicNeoM00 text-[1.2rem] leading-[2rem]">
         {content}
-        <span className="font-AppleSDGothicNeoM00 text-[1.2rem] leading-[2rem] text-black opacity-60">
+        <span className="font-AppleSDGothicNeoM00 text-[1.2rem] leading-[2rem] opacity-60">
           {additionalContent}
         </span>
       </p>

@@ -21,7 +21,7 @@ const variants = {
   center: {
     zIndex: 1,
     x: 0,
-    opacity: 0.6,
+    opacity: 0.55,
   },
   exit: (direction: number) => {
     return {
@@ -122,7 +122,7 @@ function SlideBanner() {
             animate="center"
             exit="exit"
             transition={{
-              x: { type: "spring", stiffness: 700, damping: 70 },
+              x: { type: "spring", stiffness: 300, damping: 70 },
               opacity: { duration: 0.3 },
             }}
             drag="x"

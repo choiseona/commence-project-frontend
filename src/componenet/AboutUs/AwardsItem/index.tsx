@@ -13,7 +13,7 @@ function AwardsItem({ color, year, awards }: AwardItemProps) {
     <div className="flex flex-col">
       <div className="flex">
         <AwardsItemDot color={color}/>
-        <span className="ml-[3.6rem] font-AppleSDGothicNeoT00 text-[2.8rem] text-black [text-shadow:_0_0.4rem_0.4rem_rgb(0_0_0_/_25%)]">
+        <span className="ml-[3.6rem] font-AppleSDGothicNeoT00 text-[2.8rem] [text-shadow:_0_0.4rem_0.4rem_rgb(0_0_0_/_25%)]">
           {year}
         </span>
       </div>

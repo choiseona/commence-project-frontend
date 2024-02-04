@@ -3,7 +3,7 @@ import TitleText from "@/componenet/FAQ/TitleText";
 
 function FAQ() {
   return (
-    <div className="flex flex-col text-black">
+    <div className="flex flex-col">
       <TitleText />
       <FaqContainer />
     </div>
