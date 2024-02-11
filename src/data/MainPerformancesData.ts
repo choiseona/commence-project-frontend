@@ -22,7 +22,7 @@ export const MainPerformacesData = [
         photo:yawhe,
     },
     {
-        month:"Nobember",
+        month:"November",
         show:"정기공연",
         contents:"꼬망스의 1년을 마무리하는 공연입니다. 단독으로 준비하는 가장 큰 공연인 만큼 약 2달의 준비 기간동안 15~18곡 분량의 풍성하고 창작곡을 비롯한 다양한 장르의 무대를 준비하게 됩니다. ",
         photo:junggi,

@@ -4,7 +4,7 @@ function SlideBannerText() {
       <span className="font-AppleSDGothicNeoSB00 text-[3rem]">
         Who is Next?
       </span>
-      <span className="font-AppleSDGothicNeoL00 text-[1.4rem] -mt-[0.3rem] ">
+      <span className="font-AppleSDGothicNeoL00 text-[1.4rem] max-[372px]:text-[1.33rem] -mt-[0.3rem] ">
         인하대 No.1 밴드 동아리{" "}
         <span className="font-AppleSDGothicNeoSB00 text-[1.4rem]">
           꼬망스

@@ -22,7 +22,7 @@ function FooterLinks() {
           width={"5.1%"}
         />
         <span
-          className="font-AppleSDGothicNeoM00 text-[0.7rem] -ml-[0.4%]"
+          className="font-AppleSDGothicNeoM00 text-[0.7rem] -mt-[0.15rem] -ml-[0.4%]"
           onClick={() => GotoOuterLink(youtubeURL)}
         >
           YOUTUBE
