@@ -10,11 +10,11 @@ import SecondAuditionExplaination from "@/componenet/HowToJoin/SecondAuditionExp
 
 function HowToJoin() {
   return (
-    <div className="pt-[3.333rem] mb-[7.1rem] flex flex-col justify-center items-center mx-[2.595rem]">
+    <div className="pt-[4rem] mb-[7.1rem] flex flex-col justify-center items-center mx-[2.595rem]">
       <Title content="Join To COMMENCE" />
-      <div className="mt-[4.933rem]">
+      <div className="mt-[5.7rem]">
         <CommonExplainations />
-        <div className="mt-[4.225rem]" />
+        <div className="mt-[1.5rem]" />
         <PositionExplainations />
       </div>
       <div className="mt-[4.867rem]" />

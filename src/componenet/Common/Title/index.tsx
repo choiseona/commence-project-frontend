@@ -4,7 +4,7 @@ interface Props {
 
 function Title({ content }: Props) {
   return (
-    <p className="font-tvNEnjoystoriesB text-[4rem] leading-[100%] tracking-[-0.04rem]">
+    <p className="font-AppleSDGothicNeoEB00 text-[2.5rem] leading-[100%] tracking-[-1%]">
       {content}
     </p>
   );

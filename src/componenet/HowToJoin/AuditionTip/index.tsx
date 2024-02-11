@@ -2,10 +2,10 @@ function AuditionTip() {
   return (
     <div className="pt-[1rem] w-full max-w-[34.5rem] min-h-[16.2111rem] h-auto bg-white rounded-[1.4rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
       <p>
-        <span className="ml-[2.3rem] font-tvNEnjoystoriesB text-[3rem] leading-[100%] tracking-[-0.03rem]">
+        <span className="ml-[2.3rem] font-AppleSDGothicNeoEB00 text-[2rem] leading-[100%] tracking-[-1%]">
           Tip!
         </span>
-        <span className="ml-[0.8rem] font-tvNEnjoystoriesL text-[2.5rem] leading-[100%] tracking-[-0.025rem]">
+        <span className="ml-[0.8rem] font-AppleSDGothicNeoT00 text-[2rem] leading-[100%] tracking-[-1%]">
           레슨데이
         </span>
       </p>

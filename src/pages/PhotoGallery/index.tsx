@@ -6,9 +6,9 @@ import Comment from "@/componenet/PhotoGallery/Comment";
 
 function PhotoGallery() {
   return (
-    <div className="pt-[43px] flex flex-col items-center">
+    <div className="pt-[4rem] flex flex-col items-center">
       <ThisYear />
-      <div className="mt-[166px] relative">
+      <div className="mt-[184px] relative">
         <PhotoLine />
         <div className="absolute top-[-84.5px] left-[-74px]">
           <PhotoItems />
