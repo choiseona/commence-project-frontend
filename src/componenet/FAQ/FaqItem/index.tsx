@@ -29,7 +29,7 @@ function FaqItem({question,answer}:FaqItemProps) {
       <img className="w-full h-[0.5rem]" src={faqHorizon} alt="faqhorizon" />
       {isOpen && (
         <div className="flex flex-col font-AppleSDGothicNeoL00 text-[1.2rem] pb-[0.5rem]">
-          {answer.map(ans => <span>{ans}</span>)}
+          {answer.map((ans,index) => <span key={index}>{ans}</span>)}
         </div>
       )}
     </div>
