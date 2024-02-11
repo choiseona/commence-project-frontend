@@ -4,7 +4,7 @@ import nextIcon from "@/assets/icons/arrow-icon.svg";
 function AuditionProcedure() {
   return (
     <div>
-      <p className="font-tvNEnjoystoriesM text-[2.5rem] leading-[100%] shrink-0 tracking-[-0.025rem] ml-[0.707rem]">
+      <p className="font-AppleSDGothicNeoEB00 text-[1.4rem] leading-[100%] shrink-0 tracking-[-1%] ml-[1.2rem]">
         오디션 절차
       </p>
       <div className="flex flex-col justify-center items-center">

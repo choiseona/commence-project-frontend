@@ -3,7 +3,7 @@ function SecondAuditionExplaination() {
     <div>
       <div className="flex items-center gap-[0.739rem]">
         <div className="w-[0.522rem] h-[0.522rem] bg-black rounded-full" />
-        <p className="font-tvNEnjoystoriesB text-[2rem] leading-[100%] tracking-[-0.02rem]">
+        <p className="font-AppleSDGothicNeoB00 text-[1.7rem] leading-[100%] tracking-[-1%]">
           2차 오디션
         </p>
       </div>

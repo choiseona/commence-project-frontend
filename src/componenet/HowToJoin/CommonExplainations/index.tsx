@@ -4,7 +4,7 @@ function CommonExplainations() {
   return (
     <>
       <div className="flex flex-col gap-[1.2rem]">
-        <CommonExplaination title="모집대상" content="23학번 신입생" />
+        <CommonExplaination title="모집대상" content="24학번 신입생" />
         <CommonExplaination
           title="모집기간"
           content="2024년 상시모집"
