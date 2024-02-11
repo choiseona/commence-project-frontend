@@ -1,7 +1,7 @@
 function AuditionTip() {
   return (
-    <div className="pt-[1rem] w-full max-w-[34.5rem] min-h-[16.2111rem] h-auto bg-white rounded-[1.4rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
-      <p>
+    <div className="pt-[1.2rem] w-full max-w-[34.5rem] min-h-[16.2111rem] h-auto bg-white rounded-[1.4rem] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]">
+      <p className="mb-[2.2rem]">
         <span className="ml-[2.3rem] font-AppleSDGothicNeoEB00 text-[2rem] leading-[100%] tracking-[-1%]">
           Tip!
         </span>
