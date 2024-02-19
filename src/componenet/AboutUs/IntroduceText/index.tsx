@@ -10,7 +10,7 @@ function IntroduceText() {
             저희는 명실상부 인하대학교 최고 실력의 밴드이며 교내 유일의
           </span>
           <span>
-            창작곡을 무대에 선보이는 순수 창작 가요 동아리<a className="font-AppleSDGothicNeoH00">&nbsp;꼬망스&nbsp;</a>입니다.
+            창작곡을 무대에 선보이는 순수 창작 가요 동아리<span className="font-AppleSDGothicNeoH00">&nbsp;꼬망스&nbsp;</span>입니다.
           </span>
         </div>
         <div className="flex flex-col text-center font-AppleSDGothicNeoSB00 text-[1.2rem] leading-[115%] tracking-[-1%]">
@@ -29,22 +29,22 @@ function IntroduceText() {
           </span>
           <span>
             계신
-            <a className="font-AppleSDGothicNeoH00">&nbsp;신연아 선배님!&nbsp;</a>
+            <span className="font-AppleSDGothicNeoH00">&nbsp;신연아 선배님!&nbsp;</span>
             프로그램 ‘놀면뭐하니?’에서 '유산슬'의
           </span>
           <span>
             코러스로 출연하셨던 '조용필과 위대한 탄생' 소속
-            <a className="font-AppleSDGothicNeoH00">&nbsp;김효수 선배님!&nbsp;</a>
+            <span className="font-AppleSDGothicNeoH00">&nbsp;김효수 선배님!&nbsp;</span>
           </span>
           <span>박화요비의 '그런 일은' 및 거미, 빅마마, 휘성의 히트곡을</span>
           <span>
             작곡하신 작곡가
-            <a className="font-AppleSDGothicNeoH00">&nbsp;이현정 선배님!&nbsp;</a>
+            <span className="font-AppleSDGothicNeoH00">&nbsp;이현정 선배님!&nbsp;</span>
             과거 대학가요제 수상에 더불어
           </span>
           <span>
             히트곡 'heaven'으로 가요계를 휩쓸었던 가수
-            <a className="font-AppleSDGothicNeoH00">&nbsp;김현성 선배님!&nbsp;</a>
+            <span className="font-AppleSDGothicNeoH00">&nbsp;김현성 선배님!&nbsp;</span>
           </span>
         </div>
         <div className="flex flex-col text-center font-AppleSDGothicNeoSB00 text-[1.2rem] leading-[115%] tracking-[-1%]">

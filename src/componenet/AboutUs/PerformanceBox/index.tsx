@@ -39,6 +39,7 @@ function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
             <img
               className="rounded-[1.2rem] w-full h-[10rem] overflow-hidden text-center bg-center bg-cover mr-[1.327rem]"
               src={photo}
+              alt="performanceImg"
             />
           </div>
         )}
@@ -49,6 +50,7 @@ function PerformanceBox({ month, show, contents,photo}: PerformanceBoxProps) {
           toggle ? "-scale-x-100" : ""
         )}
         src={whiteArrow}
+        alt="whiteArrow"
       />
     </div>
   );

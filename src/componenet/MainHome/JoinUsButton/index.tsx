@@ -19,7 +19,7 @@ function JoinUsButton() {
         <span className="font-AppleSDGothicNeoB00 text-white text-[1.3rem] py-[0.97rem]">
           꼬망스 지원하기
         </span>
-        <img className="absolute right-[3rem] w-[1.7rem]" src={rightArrow} />
+        <img className="absolute right-[3rem] w-[1.7rem]" src={rightArrow} alt="rightArrow"/>
       </button>
     </div>
   );

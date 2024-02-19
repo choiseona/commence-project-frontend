@@ -7,7 +7,7 @@ function FooterTitle() {
       <img src={commenceSmallMark} alt="commence-smallmark" width={"17%"} />
       <div className="flex flex-col ml-[0.2rem]">
         <span className="font-AppleSDGothicNeoEB00 text-[1.7rem]">COMMENCE</span>
-        <span className="font-AppleSDGothicNeoL00 text-[117%] -mt-[0.7rem]">
+        <span className="font-AppleSDGothicNeoL00 text-[120%] -mt-[0.7rem]">
           est.1984
         </span>
       </div>
