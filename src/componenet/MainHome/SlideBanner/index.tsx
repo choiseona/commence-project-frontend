@@ -103,6 +103,16 @@ function SlideBanner() {
     };
   }, [custominterval]);
 
+  useEffect(() => {
+    function preloading(imageArray:string[]) {
+      imageArray.forEach((url) => {
+        const image = new Image();
+        image.src = url;
+      });
+    }
+  
+    preloading(slides);
+  }, []);
   return (
     <div className="overflow-x-hidden">
       <div
