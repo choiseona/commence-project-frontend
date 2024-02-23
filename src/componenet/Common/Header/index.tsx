@@ -23,7 +23,7 @@ function Header() {
         <div className="h-full w-full flex justify-center items-center">
           <span className="text-[310%] font-Pretendard cursor-pointer" onClick={onClickHeader}>COMMENCE</span>
           <span className="absolute right-[3rem] cursor-pointer">
-            <img src={menuIcon} alt="menu-icon" onClick={onClickMenu}  />
+            <img src={menuIcon} alt="menu-icon" width={30} height={30} onClick={onClickMenu}  />
           </span>
         </div>
       </nav>

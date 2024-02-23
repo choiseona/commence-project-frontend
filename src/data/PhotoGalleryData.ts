@@ -1,18 +1,18 @@
-import january_1 from "@/assets/images/january-1.jpg";
-import january_2 from "@/assets/images/january-2.jpg";
-import february_1 from "@/assets/images/february-1.jpg";
-import march_2 from "@/assets/images/march-2.jpg";
-import march_1 from "@/assets/images/march-1.jpg";
-import march_3 from "@/assets/images/march-3.jpg";
-import april_1 from "@/assets/images//april_1.jpg";
-import may_1 from "@/assets/images/may-1.jpg";
-import may_2 from "@/assets/images/may-2.jpg";
-import july_1 from "@/assets/images/july-1.jpg";
-import august_1 from "@/assets/images/august-1.jpg";
-import september_1 from "@/assets/images/september-1.jpg";
-import october_1 from "@/assets/images/october-1.jpg";
-import november_1 from "@/assets/images/november-1.jpg";
-import december_1 from "@/assets/images/december-1.jpg";
+import january_1 from "@/assets/images/january-1.webp";
+import january_2 from "@/assets/images/january-2.webp";
+import february_1 from "@/assets/images/february-1.webp";
+import march_2 from "@/assets/images/march-2.webp";
+import march_1 from "@/assets/images/march-1.webp";
+import march_3 from "@/assets/images/march-3.webp";
+import april_1 from "@/assets/images//april_1.webp";
+import may_1 from "@/assets/images/may-1.webp";
+import may_2 from "@/assets/images/may-2.webp";
+import july_1 from "@/assets/images/july-1.webp";
+import august_1 from "@/assets/images/august-1.webp";
+import september_1 from "@/assets/images/september-1.webp";
+import october_1 from "@/assets/images/october-1.webp";
+import november_1 from "@/assets/images/november-1.webp";
+import december_1 from "@/assets/images/december-1.webp";
 
 export const photoGalleryData = {
   January: {

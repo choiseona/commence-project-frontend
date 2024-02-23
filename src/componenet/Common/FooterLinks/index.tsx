@@ -20,6 +20,7 @@ function FooterLinks() {
           alt="youtube-smallmark"
           className="-ml-[0.3rem]"
           width={"5.1%"}
+          height={"4%"}
         />
         <span
           className="font-AppleSDGothicNeoM00 text-[0.7rem] -mt-[0.15rem] -ml-[0.4%]"
@@ -33,7 +34,7 @@ function FooterLinks() {
           src={instagramSmallMark}
           alt="instagram-smallmark"
           width={"3.5%"}
-          height={"4%"}
+          height={"5%"}
         />
         <span
           className="font-AppleSDGothicNeoM00 text-[0.7rem] ml-[0.5%]"

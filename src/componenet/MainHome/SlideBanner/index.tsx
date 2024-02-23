@@ -1,10 +1,10 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import SlideBannerText from "../SlideBannerText";
-import slideimg1 from "@/assets/images/slide1.jpg";
-import slideimg2 from "@/assets/images/may-2.jpg";
-import slideimg3 from "@/assets/images/may-1.jpg";
-import slideimg4 from "@/assets/images/slide4.jpg";
+import slideimg1 from "@/assets/images/slide1.webp";
+import slideimg2 from "@/assets/images/slide2.webp";
+import slideimg3 from "@/assets/images/slide3.webp";
+import slideimg4 from "@/assets/images/slide4.webp";
 
 interface IUseInterval {
   (callback: () => void, interval: number): void;
