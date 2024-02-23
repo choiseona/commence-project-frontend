@@ -66,6 +66,8 @@ function Menu({
                 <img
                   src={onAboutus ? UpArrow : DownArrow}
                   className="mr-[5%]"
+                  width={16}
+                  height={9}
                 />
               </div>
               {onAboutus && (

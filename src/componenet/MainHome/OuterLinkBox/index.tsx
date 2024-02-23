@@ -46,7 +46,7 @@ function Svg({ svg, src, alt }: SvgProps) {
     <div
       className={svg === SvgName.COMMENCE ? "-mr-[0.9rem] -ml-[0.5rem]" : ""}
     >
-      <img src={src} alt={alt} />
+      <img src={src} alt={alt} width="auto" height="auto"/>
     </div>
   );
 }

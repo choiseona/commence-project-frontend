@@ -1,7 +1,7 @@
-import seter from "@/assets/images/march-1.jpg"
-import soum from "@/assets/images/march-3.jpg"
-import yawhe from "@/assets/images/may-1.jpg"
-import junggi from "@/assets/images/november-1.jpg"
+import seter from "@/assets/images/march-1.webp"
+import soum from "@/assets/images/march-3.webp"
+import yawhe from "@/assets/images/may-1.webp"
+import junggi from "@/assets/images/november-1.webp"
 export const MainPerformacesData = [
     {
         month:"February",
