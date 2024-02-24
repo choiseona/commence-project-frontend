@@ -17,6 +17,7 @@
     url("./assets/fonts/AppleSDGothicNeoB00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoB00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoB.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -25,6 +26,7 @@
     url("./assets/fonts/AppleSDGothicNeoEB00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoEB00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoEB.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -33,6 +35,7 @@
     url("./assets/fonts/AppleSDGothicNeoH00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoH00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoH.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -41,6 +44,7 @@
     url("./assets/fonts/AppleSDGothicNeoL00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoL00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoL.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -49,6 +53,7 @@
     url("./assets/fonts/AppleSDGothicNeoM00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoM00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoM.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -57,6 +62,7 @@
     url("./assets/fonts/AppleSDGothicNeoR00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoR00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoR.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -65,6 +71,7 @@
     url("./assets/fonts/AppleSDGothicNeoSB00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoSB00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoSB.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -73,6 +80,7 @@
     url("./assets/fonts/AppleSDGothicNeoT00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoT00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoT.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -81,6 +89,7 @@
     url("./assets/fonts/AppleSDGothicNeoUL00.woff2") format("woff2"),
     url("./assets/fonts/AppleSDGothicNeoUL00.woff") format("woff"),
     url("./assets/fonts/AppleSDGothicNeoUL.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -89,6 +98,7 @@
     url("./assets/fonts/subset-Pretendard-Regular.woff2") format("woff2"),
     url("./assets/fonts/subset-Pretendard-Regular.woff") format("woff"),
     url("./assets/fonts/subset-Pretendard-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -97,6 +107,7 @@
     url("./assets/fonts/tvNEnjoystoriesB.woff2") format("woff2"),
     url("./assets/fonts/tvNEnjoystoriesB.woff") format("woff"),
     url("./assets/fonts/tvNEnjoystoriesB.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -105,6 +116,7 @@
     url("./assets/fonts/tvNEnjoystoriesL.woff2") format("woff2"),
     url("./assets/fonts/tvNEnjoystoriesL.woff") format("woff"),
     url("./assets/fonts/tvNEnjoystoriesL.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
@@ -113,6 +125,7 @@
     url("./assets/fonts/tvNEnjoystoriesM.woff2") format("woff2"),
     url("./assets/fonts/tvNEnjoystoriesM.woff") format("woff"),
     url("./assets/fonts/tvNEnjoystoriesM.ttf") format("truetype");
+  font-display: swap;
 }
 
 .test {
