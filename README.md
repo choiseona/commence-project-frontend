@@ -1,10 +1,9 @@
 ## 목차
 1. [서비스 소개](#서비스-소개)
 2. [개발 화면](#개발-화면)
-3. [아키텍처](#아키텍처)
-4. [기술 스택](#기술-스택)
-5. [실행 방법](#실행-방법)
-6. [제작자 소개](#제작자-소개)
+3. [기술 스택](#기술-스택)
+4. [실행 방법](#실행-방법)
+5. [제작자 소개](#제작자-소개)
 
 
 ## 서비스 소개
@@ -23,9 +22,6 @@
   <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/c62e7832-20f2-4658-8d8b-26adfdc71bc0">
   <img width="300" alt="image" src="https://github.com/choiseona/commence-project-frontend/assets/52223965/ddbc71f4-2701-4a53-86b6-7e064b5195b0">
 
-
-## 아키텍처
-제작중
 
 ## 기술 스택
 |역할|종류|
